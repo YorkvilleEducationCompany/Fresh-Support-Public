@@ -1,3 +1,17 @@
 body {
 	border: solid 1px #FC0 !important;
 }
+
+
+#catalog-container .profile_pic {
+  background-color: #004c97 !important;
+  color: #FFF;
+}
+
+.img-details .item-name,
+.img-details .item-desc {
+  word-break: normal !important;
+  text-overflow: initial !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
