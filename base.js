@@ -8,4 +8,4 @@
 	$(window).load(function () {
 		$('body-loading-overlay').addClass('complete');
 	});
-}(jQuery));
+}($j));
