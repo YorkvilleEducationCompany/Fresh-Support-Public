@@ -5,7 +5,7 @@
  */
 (function($)
 {
-	$(window).on('ready', function () {
+	$(window).load(function () {
 		$('body-loading-overlay').addClass('complete');
 	});
 }(jQuery));
