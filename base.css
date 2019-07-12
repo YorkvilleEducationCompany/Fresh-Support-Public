@@ -3,6 +3,34 @@
     to { transform:rotate(360deg); }
 }
 
+@font-face {
+	font-family: 'noto-sans';
+	src: url('fonts/noto-sans-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'noto-sans';
+	src: url('fonts/noto-sans-semibold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'libre-baskerville';
+	src: url('fonts/libre-baskerville-regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root {
+	font-size: 15px;
+}
+
+body {
+	font-family: "noto-sans";
+}
 
 /**
  * 
