@@ -150,55 +150,32 @@ body {
 	color: #FFF;
 }
 
-#header-nav-social .navbar-nav-nocollapse {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	padding-left: 0;
-	margin-bottom: 0;
-	list-style: none;
-}
-
 
 
 /**
  * 
- * Bootstrap Classes (ported)
+ * Bootstrap Extended Classes
  * 
  */
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.text-shadow-rgba {
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 }
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
+.border-rgba {
+	background-clip: border-box !important;
+	border-color: rgba(0,0,0, 0.2) !important;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+/**
+ * 
+ * Theme Colours
+ * NOTE: Break apart later?
+ * 
+ */
+.bg-primary {
+	background-color: #004c97 !important;
+	color: #FFF;
 }
 
 
