@@ -31,7 +31,7 @@
 body {
 	font-family: "noto-sans", Helvetica, Arial, sans-serif !important;
 	line-height: 1.5 !important;
-	font-size: 1rem;
+	font-size: 1rem !important;
 }
 
 /**
@@ -159,6 +159,10 @@ header > nav:not(#header-nav-secondary) > .container {
 #header-nav-social ul {
 	padding: 0;
 	margin: 0;
+}
+
+#header-nav-social a {
+	line-height: 1.5 !important;
 }
 
 
