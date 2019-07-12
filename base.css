@@ -162,7 +162,7 @@ header > nav:not(#header-nav-secondary) > .container {
 }
 
 #header-nav-social a {
-	line-height: 1.5 !important;
+	line-height: 1rem !important;
 }
 
 
