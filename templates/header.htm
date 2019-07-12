@@ -1,18 +1,6 @@
 <div id="body-loading-overlay"></div>
 
 <header class="banner header-menu" id="yec-header">
-	<nav id="header-nav-social">
-		<div>
-			<ul>
-				<li class="nav-item"><a href="#" class="g24-twitter glyph-no-text mr-3">Twitter</a></li>
-				<li class="nav-item"><a href="#" class="g24-facebook glyph-no-text mr-3">Facebook</a></li>
-				<li class="nav-item"><a href="#" class="g24-youtube glyph-no-text mr-3">Youtube</a></li>
-				<li class="nav-item"><a href="#" class="g24-linkedin glyph-no-text mr-3">Linkedin</a></li>
-			</ul>
-		</div>
-	</nav>
-	
-	
 	<nav id="header-nav-primary">
 		<div class="container navbar-nav">
 			<a href="#"><h1 id="header-logo">{{portal.name|h}}</h1></a>
@@ -50,6 +38,18 @@
 		</div>
 	</nav>
 	
+	<nav id="header-nav-social" class="navbar navbar-expand-md navbar-dark bg-primary py-1 border-bottom border-rgba">
+		<div class="container navbar-nav align-items-start">
+			<ul>
+				<li class="nav-item"><a href="#" class="g24-twitter glyph-no-text mr-3">Twitter</a></li>
+				<li class="nav-item"><a href="#" class="g24-facebook glyph-no-text mr-3">Facebook</a></li>
+				<li class="nav-item"><a href="#" class="g24-youtube glyph-no-text mr-3">Youtube</a></li>
+				<li class="nav-item"><a href="#" class="g24-linkedin glyph-no-text mr-3">Linkedin</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	
 	<nav id="header-nav-secondary" class="navbar navbar-expand-md py-2 border-bottom border-rgba">
 		<div class="container navbar-nav text-uppercase">
 			<ol class="breadcrumb my-0 py-0 bg-white nav-item">
@@ -59,3 +59,25 @@
 		</div>
 	</nav>
 </header>
+
+
+
+ <div id="sticky_head">
+    <nav class="page-tabs action-bar" >
+      {% if portal.tabs.size > 0 %}
+      <a id="menu-icon" class="ficon-reorder-0 show-in-mobile menu-trigger"></a>
+      <a href="/support/home" class="help-center-tab show-in-mobile">{% translate portal.home %}</a>
+      <div class="action-bar-wrapper">  
+		<div class="nav-link" id="page-tabs">
+			{% for tab in portal.tabs %}
+				{% if tab.url %}
+				<a class="{% if tab.tab_type == portal.current_tab %}active{% endif %}" href="{{tab.url}}">
+					{{ tab.label }} 
+				</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+      </div>
+      {% endif %}
+    </nav>
+</div>

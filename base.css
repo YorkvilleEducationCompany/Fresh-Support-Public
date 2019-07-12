@@ -3,6 +3,12 @@
     to { transform:rotate(360deg); }
 }
 
+
+/**
+ * 
+ * Loading Overlay
+ * 
+ */
 #body-loading-overlay {
 	position: fixed;
 	top: 0;
@@ -40,6 +46,39 @@
 	background-color: #004c97 !important;
 	color: #FFF;
 }
+
+
+/**
+ * 
+ * Header
+ * 
+ */
+
+#yec-header {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/**
+ * 
+ * Header Social Links
+ * 
+ */
+
+#header-nav-social {
+	order: -1;
+	background-color: #004c97;
+	background-clip: border-box;
+	border: none;
+	border-bottom: solid 1px rgba(0,0,0, 0.2);
+	color: #FFF;
+}
+
+
+
+
+
 
 .img-details .item-name,
 .img-details .item-desc {
