@@ -87,7 +87,7 @@ body {
 	text-indent: -9999px;
 	width: 1rem;
 	height: 1rem;
-	line-height: 1rem;
+	line-height: 1rem !important;
 	display: inline-block;
 	position: relative;
 }
