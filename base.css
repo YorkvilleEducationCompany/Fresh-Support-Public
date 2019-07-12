@@ -34,6 +34,10 @@ body {
 	font-size: 1rem !important;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 /**
  * 
  * Loading Overlay
@@ -168,7 +172,7 @@ header > nav:not(#header-nav-secondary) > .container {
 
 /**
  * 
- * HPrimary Nav
+ * Primary Nav
  * 
  */
 #header-logo {
@@ -212,6 +216,44 @@ header > nav:not(#header-nav-secondary) > .container {
 .navbar-nav {
 	align-items: center
 }
+
+/**
+ * 
+ * Fresh Overrides
+ * 
+ */
+.c-wrapper {
+  width: 100% !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@media (min-width: 576px) {
+  .c-wrapper {
+    max-width: 540px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-wrapper {
+    max-width: 720px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .c-wrapper {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-wrapper {
+    max-width: 1140px !important;
+  }
+}
+
 
 /**
  * 
