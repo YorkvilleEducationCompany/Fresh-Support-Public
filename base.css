@@ -289,3 +289,19 @@ header > nav:not(#header-nav-secondary) > .container {
 .img-details .item-name {
 	margin-bottom: 0.5rem;
 }
+
+
+#catalog-container {
+	display: flex;
+	flex-direction: row;
+}
+#catalog-container .pull-left {
+	float: none !important;
+}
+#catalog-container .catalog-sidebar {
+	flex-basis: 25%;
+}
+#catalog-container .catalog-mainpage {
+	flex-grow: 1;
+}
+
