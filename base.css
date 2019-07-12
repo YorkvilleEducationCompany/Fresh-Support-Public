@@ -294,6 +294,9 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 #catalog-container .pull-left {
 	float: none !important;
@@ -305,3 +308,25 @@ header > nav:not(#header-nav-secondary) > .container {
 	flex-grow: 1;
 }
 
+
+#catalog-container .items-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#catalog-container .catalog-items {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 25%;
+	min-width: 200px;
+	flex-grow: 1;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#catalog-container .img-details {
+	flex-grow: 1;
+}
