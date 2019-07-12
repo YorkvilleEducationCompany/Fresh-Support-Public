@@ -166,6 +166,21 @@ body {
 	border-color: rgba(0,0,0, 0.2) !important;
 }
 
+.navbar-nav-nocollapse {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.navbar-nav {
+	align-items: center
+}
 
 /**
  * 
@@ -178,6 +193,13 @@ body {
 	color: #FFF;
 }
 
+.navbar-dark a {
+	color: #f5f4f4;
+}
+
+.navbar-dark a:hover {
+	color: #fff;
+}
 
 /**
  * 
