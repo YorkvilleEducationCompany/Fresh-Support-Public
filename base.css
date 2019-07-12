@@ -37,14 +37,20 @@
 
 
 #catalog-container .profile_pic {
-  background-color: #004c97 !important;
-  color: #FFF;
+	background-color: #004c97 !important;
+	color: #FFF;
 }
 
 .img-details .item-name,
 .img-details .item-desc {
-  word-break: normal !important;
-  text-overflow: initial !important;
-  text-align: center !important;
-  white-space: normal !important;
+	word-break: normal !important;
+	text-overflow: initial !important;
+	text-align: center !important;
+	white-space: normal !important;
+	line-height: 100%;
+}
+
+
+.img-details .item-name {
+	margin-bottom: 0.5rem;
 }

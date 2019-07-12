@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'glyph-24';
+  src:
+    url('glyph-24.ttf?e27er6') format('truetype'),
+    url('glyph-24.woff?e27er6') format('woff'),
+    url('glyph-24.svg?e27er6#glyph-24') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="g24-"]:before, [class*=" g24-"]:before,
+[class^="dashicons-g24-"]:before, [class*=" dashicons-g24-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'glyph-24' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-g24-home:before, .g24-home:before {
+  content: "\68";
+}
+.dashicons-g24-newspaper:before, .g24-newspaper:before {
+  content: "\e908";
+}
+.dashicons-g24-pen:before, .g24-pen:before {
+  content: "\e911";
+}
+.dashicons-g24-image:before, .g24-image:before {
+  content: "\e912";
+}
+.dashicons-g24-images:before, .g24-images:before {
+  content: "\e913";
+}
+.dashicons-g24-camera:before, .g24-camera:before {
+  content: "\e914";
+}
+.dashicons-g24-music:before, .g24-music:before {
+  content: "\e915";
+}
+.dashicons-g24-play1:before, .g24-play1:before {
+  content: "\e917";
+}
+.dashicons-g24-film:before, .g24-film:before {
+  content: "\e919";
+}
+.dashicons-g24-video-camera:before, .g24-video-camera:before {
+  content: "\e91a";
+}
+.dashicons-g24-mic:before, .g24-mic:before {
+  content: "\e91e";
+}
+.dashicons-g24-library:before, .g24-library:before {
+  content: "\e921";
+}
+.dashicons-g24-profile:before, .g24-profile:before {
+  content: "\e923";
+}
+.dashicons-g24-file-empty:before, .g24-file-empty:before {
+  content: "\e924";
+}
+.dashicons-g24-file-text2:before, .g24-file-text2:before {
+  content: "\e926";
+}
+.dashicons-g24-file-zip:before, .g24-file-zip:before {
+  content: "\e92b";
+}
+.dashicons-g24-price-tag:before, .g24-price-tag:before {
+  content: "\e935";
+}
+.dashicons-g24-coin-dollar:before, .g24-coin-dollar:before {
+  content: "\e93b";
+}
+.dashicons-g24-credit-card:before, .g24-credit-card:before {
+  content: "\e93f";
+}
+.dashicons-g24-calculator:before, .g24-calculator:before {
+  content: "\e940";
+}
+.dashicons-g24-phone:before, .g24-phone:before {
+  content: "\e942";
+}
+.dashicons-g24-address-book:before, .g24-address-book:before {
+  content: "\e944";
+}
+.dashicons-g24-envelop:before, .g24-envelop:before {
+  content: "\e945";
+}
+.dashicons-g24-location2:before, .g24-location2:before {
+  content: "\e948";
+}
+.dashicons-g24-display:before, .g24-display:before {
+  content: "\e956";
+}
+.dashicons-g24-laptop:before, .g24-laptop:before {
+  content: "\e957";
+}
+.dashicons-g24-tablet:before, .g24-tablet:before {
+  content: "\e95a";
+}
+.dashicons-g24-tv:before, .g24-tv:before {
+  content: "\e95b";
+}
+.dashicons-g24-bug:before, .g24-bug:before {
+  content: "\e999";
+}
+.dashicons-g24-stats-dots:before, .g24-stats-dots:before {
+  content: "\e99b";
+}
+.dashicons-g24-cloud-upload:before, .g24-cloud-upload:before {
+  content: "\e9c3";
+}
+.dashicons-g24-earth:before, .g24-earth:before {
+  content: "\e9ca";
+}
+.dashicons-g24-attachment:before, .g24-attachment:before {
+  content: "\e9cd";
+}
+.dashicons-g24-bookmark:before, .g24-bookmark:before {
+  content: "\e9d2";
+}
+.dashicons-g24-share2:before, .g24-share2:before {
+  content: "\ea82";
+}
+.dashicons-g24-hangouts:before, .g24-hangouts:before {
+  content: "\ea8e";
+}
+.dashicons-g24-facebook:before, .g24-facebook:before {
+  content: "\ea91";
+}
+.dashicons-g24-instagram:before, .g24-instagram:before {
+  content: "\ea92";
+}
+.dashicons-g24-telegram:before, .g24-telegram:before {
+  content: "\ea95";
+}
+.dashicons-g24-twitter:before, .g24-twitter:before {
+  content: "\ea96";
+}
+.dashicons-g24-rss2:before, .g24-rss2:before {
+  content: "\ea9c";
+}
+.dashicons-g24-youtube:before, .g24-youtube:before {
+  content: "\ea9d";
+}
+.dashicons-g24-vimeo2:before, .g24-vimeo2:before {
+  content: "\eaa1";
+}
+.dashicons-g24-behance:before, .g24-behance:before {
+  content: "\eaa9";
+}
+.dashicons-g24-deviantart:before, .g24-deviantart:before {
+  content: "\eaaa";
+}
+.dashicons-g24-500px:before, .g24-500px:before {
+  content: "\eaab";
+}
+.dashicons-g24-onedrive:before, .g24-onedrive:before {
+  content: "\eaaf";
+}
+.dashicons-g24-github:before, .g24-github:before {
+  content: "\eab0";
+}
+.dashicons-g24-wordpress:before, .g24-wordpress:before {
+  content: "\eab4";
+}
+.dashicons-g24-tux:before, .g24-tux:before {
+  content: "\eabd";
+}
+.dashicons-g24-appleinc:before, .g24-appleinc:before {
+  content: "\eabe";
+}
+.dashicons-g24-finder:before, .g24-finder:before {
+  content: "\eabf";
+}
+.dashicons-g24-android:before, .g24-android:before {
+  content: "\eac0";
+}
+.dashicons-g24-windows8:before, .g24-windows8:before {
+  content: "\eac2";
+}
+.dashicons-g24-skype:before, .g24-skype:before {
+  content: "\eac5";
+}
+.dashicons-g24-reddit:before, .g24-reddit:before {
+  content: "\eac6";
+}
+.dashicons-g24-wikipedia:before, .g24-wikipedia:before {
+  content: "\eac8";
+}
+.dashicons-g24-linkedin:before, .g24-linkedin:before {
+  content: "\eac9";
+}
+.dashicons-g24-stackoverflow:before, .g24-stackoverflow:before {
+  content: "\ead0";
+}
+.dashicons-g24-pinterest:before, .g24-pinterest:before {
+  content: "\ead1";
+}
+.dashicons-g24-file-pdf:before, .g24-file-pdf:before {
+  content: "\eadf";
+}
+.dashicons-g24-appgrid:before, .g24-appgrid:before {
+  content: "\23";
+}
+.dashicons-g24-gif:before, .g24-gif:before {
+  content: "\e910";
+}
+.dashicons-g24-skull:before, .g24-skull:before {
+  content: "\e909";
+}
+.dashicons-g24-day-next:before, .g24-day-next:before {
+  content: "\e90a";
+}
+.dashicons-g24-day-prev:before, .g24-day-prev:before {
+  content: "\e90d";
+}
+.dashicons-g24-set:before, .g24-set:before {
+  content: "\e90e";
+}
+.dashicons-g24-time:before, .g24-time:before {
+  content: "\e90f";
+}
+.dashicons-g24-gear:before, .g24-gear:before {
+  content: "\e902";
+}
+.dashicons-g24-db:before, .g24-db:before {
+  content: "\e903";
+}
+.dashicons-g24-textfile:before, .g24-textfile:before {
+  content: "\e906";
+}
+.dashicons-g24-plugin:before, .g24-plugin:before {
+  content: "\e907";
+}
+.dashicons-g24-undo:before, .g24-undo:before {
+  content: "\55";
+}
+.dashicons-g24-redo:before, .g24-redo:before {
+  content: "\52";
+}
+.dashicons-g24-check:before, .g24-check:before {
+  content: "\2f";
+}
+.dashicons-g24-x:before, .g24-x:before {
+  content: "\e90c";
+}
+.dashicons-g24-comments1:before, .g24-comments1:before {
+  content: "\e904";
+}
+.dashicons-g24-comment1:before, .g24-comment1:before {
+  content: "\e905";
+}
+.dashicons-g24-info:before, .g24-info:before {
+  content: "\69";
+}
+.dashicons-g24-reload:before, .g24-reload:before {
+  content: "\72";
+}
+.dashicons-g24-album:before, .g24-album:before {
+  content: "\e900";
+}
+.dashicons-g24-audio:before, .g24-audio:before {
+  content: "\e901";
+}
+.dashicons-g24-fav:before, .g24-fav:before {
+  content: "\2605";
+}
+.dashicons-g24-fav-empty:before, .g24-fav-empty:before {
+  content: "\2606";
+}
+.dashicons-g24-filter:before, .g24-filter:before {
+  content: "\66";
+}
+.dashicons-g24-go-end:before, .g24-go-end:before {
+  content: "\bb";
+}
+.dashicons-g24-go-first:before, .g24-go-first:before {
+  content: "\ab";
+}
+.dashicons-g24-go-next:before, .g24-go-next:before {
+  content: "\3e";
+}
+.dashicons-g24-go-prev:before, .g24-go-prev:before {
+  content: "\3c";
+}
+.dashicons-g24-hide:before, .g24-hide:before {
+  content: "\e90b";
+}
+.dashicons-g24-loop:before, .g24-loop:before {
+  content: "\1f501";
+}
+.dashicons-g24-menu:before, .g24-menu:before {
+  content: "\3a";
+}
+.dashicons-g24-cinema:before, .g24-mode-cinema:before {
+  content: "\43";
+}
+.dashicons-g24-mode-compact:before, .g24-mode-compact:before {
+  content: "\63";
+}
+.dashicons-g24-mode-fullscreen:before, .g24-mode-fullscreen:before {
+  content: "\46";
+}
+.dashicons-g24-pause:before, .g24-pause:before {
+  content: "\23f8";
+}
+.dashicons-g24-play:before, .g24-play:before {
+  content: "\2023";
+}
+.dashicons-g24-question:before, .g24-question:before {
+  content: "\3f";
+}
+.dashicons-g24-search:before, .g24-search:before {
+  content: "\51";
+}
+.dashicons-g24-settings:before, .g24-settings:before {
+  content: "\73";
+}
+.dashicons-g24-show:before, .g24-show:before {
+  content: "\e916";
+}
+.dashicons-g24-shuffle:before, .g24-shuffle:before {
+  content: "\1f500";
+}
+.dashicons-g24-slideshow:before, .g24-slideshow:before {
+  content: "\e918";
+}
+.dashicons-g24-tag:before, .g24-tag:before {
+  content: "\74";
+}
+.dashicons-g24-user:before, .g24-user:before {
+  content: "\75";
+}
+.dashicons-g24-video:before, .g24-video:before {
+  content: "\76";
+}
+.dashicons-g24-ask:before, .g24-ask:before {
+  content: "\e91b";
+}

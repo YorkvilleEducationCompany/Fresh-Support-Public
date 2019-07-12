@@ -1,0 +1,119 @@
+<div id="body-loading-overlay"></div>
+<header class="banner header-menu" id="new-header">
+	<nav id="header-nav-social">
+		<div>
+			<ul>
+				<li class="nav-item"><a href="#" class="g24-twitter glyph-no-text mr-3">Twitter</a></li>
+				<li class="nav-item"><a href="#" class="g24-facebook glyph-no-text mr-3">Facebook</a></li>
+				<li class="nav-item"><a href="#" class="g24-youtube glyph-no-text mr-3">Youtube</a></li>
+				<li class="nav-item"><a href="#" class="g24-linkedin glyph-no-text mr-3">Linkedin</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<nav id="header-nav-primary">
+		<div class="container navbar-nav">
+			<a href="#"><h1 id="header-logo">Yorkville University</h1></a>
+			<ul class="navbar-nav-nocollapse my-1">
+				<li class="nav-item"><a class="g24-search btn btn-primary btn-md border border-rgba" href="#">Ask YU</a></li>
+				<li class="nav-item"><a class="g24-appgrid btn btn-primary btn-md border border-rgba" href="#">My YU</a></li>
+				
+				
+				
+				
+				
+				{% if portal.has_user_signed_in == true %}
+				
+					{% snippet notifications %}
+				
+					<li class="nav-item"><a class="g24-ask btn btn-primary" href="{{ portal.new_ticket_url }}">{% translate portal.new_ticket %}</a></li>
+					
+					<li class="dropdown" id="action-bar-toggle">
+						<a class="dropdown-toggle profile-name" 
+						id="dLabel"
+						style="background-image: url({% if portal.user.profile_url != false %}{{ portal.user.profile_url }}{% else %}{{ portal.asset_host_url }}/assets/fillers/profile_blank_thumb.gif{% endif %});" 
+						role="button" 
+						data-toggle="dropdown" 
+						data-target="#" 
+						href="#">{{ current_user.name }}</a>
+						<ul class="dropdown-menu profile-popup" role="menu" aria-labelledby="dLabel">
+							<a href="{{ portal.profile_url }}">{% translate portal.edit_profile %}</a>
+							<a href="{{ portal.logout_url }}">{% translate portal.sign_out %}</a>
+						</ul>
+					</li>
+				{% else %}
+					<a href="{{ portal.login_url }}" class="btn btn-primary">{% translate portal.signin %}</a>
+					{% if portal.can_signup_feature %}
+						<a href="{{ portal['signup_url'] }}" class="btn btn-red uppercase">{% translate portal.signup %}</a>
+					{% endif %}
+				{% endif %}
+			</ul>
+		</div>
+	</nav>
+	
+	
+	
+	
+	<div class="banner-wrapper">
+		<div class="nav-wrapper">
+      <div class="banner-title" id="logo">
+          {{ portal | logo }}
+          <h1 class="ellipsis heading">{{portal.name|h}}</h1>
+      </div>
+  		<nav class="nav-menu hide-in-mobile" id="header-tabs">
+        {%unless portal.portal_phone == blank%}
+    			<ul>
+    				  <li class="nav-contact"><i class="icon-phone"></i>{{ portal.portal_phone }}</li>
+    			</ul>
+        {%endunless%}
+  		</nav>
+		</div>
+	</div>
+</header>
+
+ <div id="sticky_head">
+    <nav class="page-tabs action-bar" >
+      {% if portal.tabs.size > 0 %}
+      <a id="menu-icon" class="ficon-reorder-0 show-in-mobile menu-trigger"></a>
+      <a href="/support/home" class="help-center-tab show-in-mobile">{% translate portal.home %}</a>
+      <div class="action-bar-wrapper">  
+      <div class="nav-link" id="page-tabs">
+          {% for tab in portal.tabs %}
+            {% if tab.url %}
+              <a class="{% if tab.tab_type == portal.current_tab %}active{% endif %}" href="{{tab.url}}">
+                  {{ tab.label }} 
+              </a>
+            {% endif %}
+          {% endfor %}
+      </div>
+        <div id="new-ticket-button">
+          {% if portal.has_user_signed_in == true %}
+              
+            {% snippet notifications %}
+
+            {% if portal.user.profile_url != false %}   
+              <img class="profile-picture" src="{{ portal.user.profile_url }}" onerror="imgerror(this)" />
+            {% else %}
+         	  <img class="profile-picture" src="{{ portal.asset_host_url }}/assets/fillers/profile_blank_thumb.gif" />
+	        {% endif %}
+          	<div class="dropdown" id="action-bar-toggle">
+                <a class="dropdown-toggle profile-name" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">{{ current_user.name }}<b class="caret"></b></a>
+                <ul class="dropdown-menu profile-popup" role="menu" aria-labelledby="dLabel">
+                    <a href="{{ portal.profile_url }}">{% translate portal.edit_profile %}</a>
+                  <a href="{{ portal.logout_url }}">{% translate portal.sign_out %}</a>
+                </ul>
+            </div>
+            <a href="{{ portal.new_ticket_url }}" class="btn btn-red">{% translate portal.new_ticket %}</a>
+              
+            {% else %}
+              <a href="{{ portal.login_url }}" class="portal-signin uppercase">{% translate portal.signin %}</a>
+            {% if portal.can_signup_feature %}
+              <a href="{{ portal['signup_url'] }}" class="btn btn-red uppercase">{% translate portal.signup %}</a>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </nav>
+</div>
