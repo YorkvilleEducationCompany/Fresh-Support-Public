@@ -50,13 +50,60 @@
 
 /**
  * 
+ * Glyphs
+ * 
+ */
+.glyph-no-text {
+	text-indent: -9999px;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	display: inline-block;
+	position: relative;
+}
+
+.glyph-no-text:before {
+	position: absolute;
+	text-indent: 0;
+	top: 0;
+	left: 0;
+}
+
+.btn[class^="g24-"]:before,
+.btn[class*=" g24-"]:before {
+	text-indent: 0px;
+	font-family: "glyph24";
+	font-size: 1.2rem;
+	vertical-align: middle;
+	margin-right: 0.5em;
+	position: relative;
+	top: 0.12ex;
+}
+
+.btn[class^="g24-"].glyph-no-text:before,
+.btn[class*=" g24-"].glyph-no-text:before {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	text-indent: 0px;
+	text-align: center;
+	font-family: "glyph24";
+	font-size: 1rem;
+}
+
+
+/**
+ * 
  * Header
  * 
  */
-
 #yec-header {
 	display: flex;
 	flex-direction: column;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -65,7 +112,6 @@
  * Header Social Links
  * 
  */
-
 #header-nav-social {
 	order: -1;
 	background-color: #004c97;
