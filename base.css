@@ -168,6 +168,23 @@ header > nav:not(#header-nav-secondary) > .container {
 
 /**
  * 
+ * HPrimary Nav
+ * 
+ */
+#header-logo {
+	background-image: url(media/yorkville-logo.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 200px;
+	height: 42px;
+	text-indent: -9999px;
+	display: inline-block;
+	margin: 0px;
+}
+
+
+/**
+ * 
  * Bootstrap Extended Classes
  * 
  */
