@@ -29,7 +29,7 @@
 }
 
 body {
-	font-family: "noto-sans";
+	font-family: "noto-sans", Helvetica, Arial, sans-serif !important;
 }
 
 /**
