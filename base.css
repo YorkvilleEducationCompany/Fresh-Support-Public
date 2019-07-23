@@ -226,9 +226,12 @@ header > nav:not(#header-nav-secondary) > .container {
   margin-left: auto !important;
 }
 
-#request_item_page .sidebar .request-for {
+#request_item_page .sidebar .request-for,
+#request_item_page .sidebar .show_request_for {
 	display: none;
 }
+
+
 
 @media (min-width: 576px) {
   .c-wrapper {
