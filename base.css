@@ -227,7 +227,7 @@ header > nav:not(#header-nav-secondary) > .container {
 }
 
 #request_item_page .sidebar .request-for,
-#request_item_page .sidebar .show_request_for {
+#request_item_page .sidebar #show_request_for {
 	display: none;
 }
 
