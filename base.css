@@ -360,7 +360,7 @@ header > nav:not(#header-nav-secondary) > .container {
 
 #catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic {
 	height: auto !important;
-	padding: 1rem 1.5rem 0 1.5rem !important;
+	padding: 1rem 2rem 0 2rem !important;
 	line-height: 100% !important;
 }
 
