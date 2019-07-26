@@ -408,3 +408,7 @@ header > nav:not(#header-nav-secondary) > .container {
 #servicecatalog-index-web .categories li {
 	flex-basis: 33%
 }
+
+#catalog_items_container {
+	width: auto !important;
+}
