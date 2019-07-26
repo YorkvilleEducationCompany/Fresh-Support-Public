@@ -302,9 +302,7 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container .pull-left {
 	float: none !important;
 }
-#catalog-container .catalog-sidebar {
-	flex-basis: 25%;
-}
+
 #catalog-container .catalog-mainpage {
 	flex-grow: 1;
 }
@@ -410,6 +408,7 @@ header > nav:not(#header-nav-secondary) > .container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	order: 0;
 }
 
 #servicecatalog-index-web #categories li {
@@ -420,4 +419,9 @@ header > nav:not(#header-nav-secondary) > .container {
 	width: auto !important;
 	border: none !important;
 	
+}
+
+#servicecatalog-index-web {
+	display: flex;
+	flex-direction: column;
 }
