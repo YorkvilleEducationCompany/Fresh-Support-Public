@@ -376,3 +376,7 @@ header > nav:not(#header-nav-secondary) > .container {
 	font-family: "libre-baskerville", serif;
 	line-height: 1.2;
 }
+
+.service-catalog-services-default {
+	background-image: none !important;
+}
