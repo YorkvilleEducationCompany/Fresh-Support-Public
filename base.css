@@ -220,13 +220,13 @@ header > nav:not(#header-nav-secondary) > .container {
  */
 
 #sticky_head > nav {
-	background-color: #FAFAFA;
-	border-bottom: solid 1px rgba(0,0,0,.2);
+	background-color: #fafafa;
+	border-bottom: solid 1px rgba(0,0,0,.2) !important;
 	box-shadow: none !important;
 	
 }
 
-#sticky_head > .nav-link {
+#sticky_head > #page-tabs {
 	padding: 0 !important;
 	
 }
