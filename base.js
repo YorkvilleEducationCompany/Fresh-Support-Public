@@ -10,5 +10,5 @@
 	});
 	
 	
-	$('link[href^="/support/theme.css]').remove();
+	$('link[href^="/support/theme.css"]').remove();
 }(jQuery));
