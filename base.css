@@ -274,7 +274,7 @@ header > nav:not(#header-nav-secondary) > .container {
  * Fresh Overrides
  * 
  */
-.c-wrapper {
+.c-wrapper, .action-bar-wrapper {
   width: 100% !important;
   padding-right: 15px !important;
   padding-left: 15px !important;
@@ -290,25 +290,25 @@ header > nav:not(#header-nav-secondary) > .container {
 
 
 @media (min-width: 576px) {
-  .c-wrapper {
+  .c-wrapper, .action-bar-wrapper {
     max-width: 540px !important;
   }
 }
 
 @media (min-width: 768px) {
-  .c-wrapper {
+  .c-wrapper, .action-bar-wrapper {
     max-width: 720px !important;
   }
 }
 
 @media (min-width: 992px) {
-  .c-wrapper {
+  .c-wrapper, .action-bar-wrapper {
     max-width: 960px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  .c-wrapper {
+  .c-wrapper, .action-bar-wrapper {
     max-width: 1140px !important;
   }
 }
