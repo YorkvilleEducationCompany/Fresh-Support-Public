@@ -425,6 +425,10 @@ header > nav:not(#header-nav-secondary) > .container {
 	
 }
 
+#catalog_items_container > * {
+	width: auto !important;
+}
+
 #servicecatalog-index-web {
 	display: flex;
 	flex-direction: column;
