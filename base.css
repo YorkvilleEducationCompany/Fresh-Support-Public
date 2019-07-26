@@ -231,6 +231,22 @@ header > nav:not(#header-nav-secondary) > .container {
 	
 }
 
+#sticky_head .action-bar {
+	height: auto !important;
+}
+
+#sticky_head .page-tabs {
+	min-height: 0 !important;
+}
+
+#sticky_head .page-tabs::before {
+	display: none !important;
+}
+
+#sticky_head .page-tabs .nav-link a {
+	float: none !important; /* Why the floats? Why? */
+}
+
 /**
  * 
  * Fresh Overrides
