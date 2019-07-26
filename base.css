@@ -289,19 +289,6 @@ header > nav:not(#header-nav-secondary) > .container {
  * NOTE: Break apart later?
  * 
  */
-.img-details .item-name,
-.img-details .item-desc {
-	word-break: normal !important;
-	text-overflow: initial !important;
-	text-align: center !important;
-	white-space: normal !important;
-	line-height: 100%;
-}
-
-
-.img-details .item-name {
-	margin: 0.25rem 0.5rem !important;
-}
 
 
 #catalog-container {
@@ -352,22 +339,39 @@ header > nav:not(#header-nav-secondary) > .container {
 	color: #FFF !important;
 }
 
+#catalog-container .img-details {
+	flex-grow: 1;
+	margin-top: 0 !important;
+}
+
 #catalog-container .catalog-items .item-request,
 #catalog-container .catalog-items .item-price,
 #catalog-container .catalog-items .item-desc {
 	display: none !important;
 }
 
-#catalog-container .img-details {
-	flex-grow: 1;
-}
-
 #catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic {
 	height: auto !important;
 	padding: 1rem;
+	line-height: 100% !important;
 }
 
 #catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic img {
 	height: auto;
 	width: 100% !important;
+}
+
+#catalog-container .img-details .item-name,
+#catalog-container .img-details .item-desc {
+	word-break: normal !important;
+	text-overflow: initial !important;
+	text-align: center !important;
+	white-space: normal !important;
+	line-height: 100%;
+}
+
+
+#catalog-container .img-details .item-name {
+	margin: 0.25rem 0.5rem !important;
+	font-family: "libre-baskerville", serif;
 }
