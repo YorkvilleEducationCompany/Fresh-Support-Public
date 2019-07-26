@@ -16,38 +16,38 @@
 	 */
 	function yecUpdateIconGrids () 
 	{
-		$('.yu-icon-grid-button')
+		$('.catalog-items')
 			.css('min-width', '0px')
 			.css('min-height', '0px')
 			.css('flex-basis', '')
 			.css('flex-grow', '');
 		
-		$('.yu-icon-grid').each(function(index, grid) 
+		$('#catalog_items_container').each(function(index, grid) 
 		{
 			var maxWidth  = 150;
 			var maxHeight = 150;
 			
-			$('.yu-icon-grid-button', grid).each(function(index, el) {
+			$('.catalog-items', grid).each(function(index, el) {
 				maxWidth  = Math.max($(el).outerWidth() - 1, maxWidth);
 				maxHeight = Math.max($(el).outerWidth() - 1, maxHeight);
 			});
 			
 			var minSize = Math.max(maxWidth, maxHeight);
 			
-			$('.yu-icon-grid-button', grid)
+			$('.catalog-items', grid)
 				.css('min-height',  minSize+"px")
 				.css('min-width',   minSize+"px");
 			
 			// We apply height again as flex may have grown after the
 			// layout has been applied.
-			$('.yu-icon-grid-button', grid).each(function(index, el) {
+			$('.catalog-items', grid).each(function(index, el) {
 				minSize  = Math.max($(el).outerWidth() - 1, minSize);
 			});
 			
 			// We disable flex-grow on items as it intereferes with the last
 			// rows sizing. Because we don't measure with outerWidth, this means
 			// every column may fall short of the "perfect" width.
-			$('.yu-icon-grid-button', grid)
+			$('.catalog-items', grid)
 				.css('min-width',  minSize+"px")
 				.css('min-height', minSize+"px")
 				.css('flex-grow', '0');
@@ -58,7 +58,7 @@
 			var realcolumns = Math.floor($(grid).innerWidth() / minSize);
 			var column = 1;
 			
-			$('.yu-icon-grid-button', grid).each(function(index, el) {
+			$('.catalog-items', grid).each(function(index, el) {
 				if (column % realcolumns == 0) {
 					$(el).css('flex-grow', '1');
 				}
