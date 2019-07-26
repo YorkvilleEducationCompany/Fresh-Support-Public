@@ -333,11 +333,18 @@ header > nav:not(#header-nav-secondary) > .container {
 	background-clip: border-box;
 }
 
-#catalog-container .catalog-items,
-#catalog-container .catalog-items:hover {
+#catalog-container .catalog-items {
 	background-color: #004c97 !important;
 	color: #FFF !important;
 }
+
+#catalog-container .catalog-items:hover {
+	background-color: #0069d9 !important;
+	color: #FFF !important;
+}
+
+
+
 
 #catalog-container .img-details {
 	flex-grow: 1;
@@ -378,5 +385,5 @@ header > nav:not(#header-nav-secondary) > .container {
 }
 
 .service-catalog-services-default {
-	background-image: none !important;
+	display: none !important;
 }
