@@ -357,7 +357,7 @@ header > nav:not(#header-nav-secondary) > .container {
 }
 
 #catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic img {
-	height: auto;
+	height: auto !important;
 	width: 100% !important;
 }
 
