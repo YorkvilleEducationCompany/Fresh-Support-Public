@@ -72,6 +72,11 @@ body {
 }
 
 
+#catalog-container .profile_pic {
+	background-color: transparent !important;
+}
+
+
 /**
  * 
  * Glyphs
