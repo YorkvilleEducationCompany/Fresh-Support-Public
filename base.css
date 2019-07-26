@@ -276,6 +276,13 @@ header > nav:not(#header-nav-secondary) > .container {
 	color: #fff;
 }
 
+
+.img-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
 /**
  * 
  * Page-specific content
@@ -293,7 +300,7 @@ header > nav:not(#header-nav-secondary) > .container {
 
 
 .img-details .item-name {
-	margin-bottom: 0.5rem;
+	margin: 0.25rem 0.5rem !important;
 }
 
 
@@ -353,4 +360,14 @@ header > nav:not(#header-nav-secondary) > .container {
 
 #catalog-container .img-details {
 	flex-grow: 1;
+}
+
+#catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic {
+	height: auto !important;
+	padding: 1rem;
+}
+
+#catalog-container .catalog-mainpage .items-container .catalog-items .profile_pic img {
+	height: auto;
+	width: 100% !important;
 }
