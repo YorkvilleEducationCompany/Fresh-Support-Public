@@ -219,7 +219,7 @@ header > nav:not(#header-nav-secondary) > .container {
  * 
  */
 
-#sticky_head > nav.action_bar {
+#sticky_head .action-bar {
 	background-color: #fafafa;
 	border-bottom: solid 1px rgba(0,0,0,.2) !important;
 	box-shadow: none !important;
@@ -236,7 +236,8 @@ header > nav:not(#header-nav-secondary) > .container {
 	line-height: auto !important;
 }
 
-#sticky_head .page-tabs::before {
+#sticky_head .page-tabs::before,
+#sticky_head .page-tabs::after {
 	display: none !important;
 }
 
