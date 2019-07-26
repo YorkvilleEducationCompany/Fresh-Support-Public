@@ -313,11 +313,11 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container .items-container {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: auto !important;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	flex-wrap: wrap;
-	margin: 0.5rem !important;
+	margin: 0.5rem -0.5rem !important;
 }
 
 #catalog-container .catalog-items {
@@ -411,4 +411,6 @@ header > nav:not(#header-nav-secondary) > .container {
 
 #catalog_items_container {
 	width: auto !important;
+	border: none !important;
+	
 }
