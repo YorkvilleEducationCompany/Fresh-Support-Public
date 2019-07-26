@@ -415,6 +415,10 @@ header > nav:not(#header-nav-secondary) > .container {
 	flex-basis: 33%
 }
 
+#servicecatalog-index-web .search-div {
+	order: 1;
+}
+
 #catalog_items_container {
 	width: auto !important;
 	border: none !important;
