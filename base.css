@@ -374,4 +374,5 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container .img-details .item-name {
 	margin: 0.25rem 0.5rem !important;
 	font-family: "libre-baskerville", serif;
+	line-height: 1.2;
 }
