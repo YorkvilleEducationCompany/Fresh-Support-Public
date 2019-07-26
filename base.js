@@ -8,4 +8,7 @@
 	$(window).load(function () {
 		$('#body-loading-overlay').addClass('complete');
 	});
+	
+	
+	$('link[href^="/support/theme.css]').remove();
 }(jQuery));
