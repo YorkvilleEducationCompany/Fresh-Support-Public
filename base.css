@@ -212,6 +212,25 @@ header > nav:not(#header-nav-secondary) > .container {
 	align-items: center
 }
 
+
+/**
+ * 
+ * Nav Overrides
+ * 
+ */
+
+#sticky_head > nav {
+	background-color: #FAFAFA;
+	border-bottom: solid 1px rgba(0,0,0,.2);
+	box-shadow: none !important;
+	
+}
+
+#sticky_head > .nav-link {
+	padding: 0 !important;
+	
+}
+
 /**
  * 
  * Fresh Overrides
