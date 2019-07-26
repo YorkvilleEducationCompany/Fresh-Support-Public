@@ -228,7 +228,7 @@ header > nav:not(#header-nav-secondary) > .container {
 
 #sticky_head > #page-tabs {
 	padding: 0 !important;
-	
+	display: flex !important;
 }
 
 #sticky_head .page-tabs {
@@ -250,6 +250,7 @@ header > nav:not(#header-nav-secondary) > .container {
 	float: none !important; /* Why the floats? Why? */
 	padding: 0.5rem 2rem !important;
 	margin: 0 !important;
+	line-height: 1.5 !important;
 }
 
 /**
