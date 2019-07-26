@@ -385,5 +385,5 @@ header > nav:not(#header-nav-secondary) > .container {
 }
 
 .service-catalog-services-default {
-	display: none !important;
+	background-image: none !important;
 }
