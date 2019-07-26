@@ -422,6 +422,7 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog_items_container {
 	width: auto !important;
 	border: none !important;
+	border-left: none !important;
 	
 }
 
