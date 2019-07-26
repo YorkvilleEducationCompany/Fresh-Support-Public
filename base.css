@@ -251,6 +251,19 @@ header > nav:not(#header-nav-secondary) > .container {
 	padding: 0.5rem 2rem !important;
 	margin: 0 !important;
 	line-height: 1.5 !important;
+	color: #0066ca;
+}
+
+#sticky_head .page-tabs .nav-link a:hover {
+	text-decoration: underline;
+}
+
+#sticky_head .page-tabs .nav-link a.active {
+	background-color: rgba(0,0,0,.1);
+}
+
+#sticky_head .page-tabs .nav-link a.active:hover {
+	text-decoration: none;
 }
 
 /**
