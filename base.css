@@ -419,7 +419,8 @@ header > nav:not(#header-nav-secondary) > .container {
 	width: auto !important;
 	border: none !important;
 	border-left: none !important;
-	
+	border-left-width: 0 !important;
+	border-left-color: transparent !important;
 }
 
 #catalog_items_container > * {
