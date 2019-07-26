@@ -295,8 +295,7 @@ header > nav:not(#header-nav-secondary) > .container {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding: 0 !important;
 }
 
 #catalog-container .pull-left {
@@ -392,7 +391,8 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container .catalog-sidebar .search-div {
 	max-width: 400px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 2rem auto;
+	order: 1;
 }
 
 
@@ -413,10 +413,6 @@ header > nav:not(#header-nav-secondary) > .container {
 
 #servicecatalog-index-web #categories li {
 	flex-basis: 33%
-}
-
-#servicecatalog-index-web .search-div {
-	order: 1;
 }
 
 #catalog_items_container {
