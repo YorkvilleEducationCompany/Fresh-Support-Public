@@ -391,6 +391,13 @@ header > nav:not(#header-nav-secondary) > .container {
 	background-image: none !important;
 }
 
+#catalog-container .catalog-sidebar .search-div {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
 #servicecatalog-index-web {
 	width: auto !important;
 }
