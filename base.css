@@ -383,6 +383,7 @@ header > nav:not(#header-nav-secondary) > .container {
 	margin: 0.25rem 0.5rem !important;
 	font-family: "libre-baskerville", serif;
 	line-height: 1.2;
+	font-size: 1rem;
 }
 
 .service-catalog-services-default {
