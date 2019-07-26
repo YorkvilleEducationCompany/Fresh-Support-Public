@@ -255,8 +255,8 @@ header > nav:not(#header-nav-secondary) > .container {
 	background-color: transparent !important;
 }
 
-#sticky_head .page-tabs .nav-link a + 1 {
-	margin-left: 2rem !important
+#sticky_head .page-tabs .nav-link a + a {
+	margin-left: 2rem !important;
 }
 
 #sticky_head .page-tabs .nav-link a:hover {
