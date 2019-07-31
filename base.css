@@ -140,6 +140,28 @@ header > nav:not(#header-nav-secondary) > .container {
 	padding-right: 1rem !important;
 }
 
+header .profile-name {
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	background-size: cover;
+	background-origin: border-box;
+	display: inline-block;
+	border: solid 1px rgba(0,0,0,.2);
+	border-radius: 20px;
+	box-shadow: 0 0 0 0 rgba(216,217,219,0);
+	transition: box-shadow 0.2s;
+}
+
+header .profile-name:focus {
+	box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
+}
+
+header #header-nav-primary .navbar-nav-nocollapse > * + li {
+	margin-left: 1rem;
+}
+
+
 
 /**
  * 
@@ -212,6 +234,16 @@ header > nav:not(#header-nav-secondary) > .container {
 	align-items: center
 }
 
+.btn {
+	border-radius: 0;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.btn-primary {
+	background-color: #0066ca;
+}
 
 /**
  * 
@@ -398,6 +430,7 @@ header > nav:not(#header-nav-secondary) > .container {
 #catalog-container .catalog-items {
 	background-color: #004c97 !important;
 	color: #FFF !important;
+	cursor: pointer;
 }
 
 #catalog-container .catalog-items:hover {
