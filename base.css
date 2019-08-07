@@ -503,6 +503,28 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
+#hc-search-form {
+	padding: 2rem 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+#hc-search-form > * {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+#hc-search-form .hc-search-input {
+	flex-grow: 1;
+}
+
+#hc-search-form .hc-search-input input {
+	width: 100%;
+}
+
+
+
 /**
  * 
  * Custom Fields modifications
