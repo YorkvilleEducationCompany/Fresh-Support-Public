@@ -253,7 +253,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 }
 
-.border-rgba, .btn-primary {
+.border-rgba, .btn-primary, .btn-red {
 	background-clip: border-box !important;
 	border-color: rgba(0,0,0, 0.2) !important;
 }
@@ -283,6 +283,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .btn-primary {
 	background-color: #0066ca;
+	color: #FFF;
+}
+
+.btn-red {
+	background-color: #ac0808;
+	color: #FFF;
 }
 
 /**
