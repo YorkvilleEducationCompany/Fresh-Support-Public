@@ -538,10 +538,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	width: auto !important;
 }
 
+/*
 .custom-fields li .nested_field,
 .custom-fields li textarea {
 	flex-grow: 1;
 }
+*/
 
 .custom-fields li .error {
 	flex-basis: 100%;
