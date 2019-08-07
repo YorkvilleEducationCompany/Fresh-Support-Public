@@ -677,6 +677,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	background-clip: border-box;
 	width: auto;
 	display: block;
+	margin-bottom: 1rem;
 }
 
 .profile_pic img {
