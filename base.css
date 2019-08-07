@@ -236,6 +236,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	font-family: "glyph24";
 }
 
+:not(#header-hero) + #header-nav-secondary {
+	padding-top: 0 !important;
+}
+
 /**
  * 
  * Bootstrap Extended Classes
