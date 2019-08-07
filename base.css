@@ -352,7 +352,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
  * Fresh Overrides
  * 
  */
-.c-wrapper, .action-bar-wrapper {
+.c-wrapper, .action-bar-wrapper, .page-layout {
   width: 100% !important;
   padding-right: 15px !important;
   padding-left: 15px !important;
@@ -368,25 +368,25 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 
 @media (min-width: 576px) {
-  .c-wrapper, .action-bar-wrapper {
+  .c-wrapper, .action-bar-wrapper, .page-layout {
     max-width: 540px !important;
   }
 }
 
 @media (min-width: 768px) {
-  .c-wrapper, .action-bar-wrapper {
+  .c-wrapper, .action-bar-wrapper, .page-layout {
     max-width: 720px !important;
   }
 }
 
 @media (min-width: 992px) {
-  .c-wrapper, .action-bar-wrapper {
+  .c-wrapper, .action-bar-wrapper, .page-layout {
     max-width: 960px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  .c-wrapper, .action-bar-wrapper {
+  .c-wrapper, .action-bar-wrapper, .page-layout {
     max-width: 1140px !important;
   }
 }
