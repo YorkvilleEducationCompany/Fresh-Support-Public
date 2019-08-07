@@ -669,19 +669,33 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: column;
 }
 
-.profile_pic {
+.catalog-request .profile_pic {
 	background-color: #004c97;
 	padding: 1rem;
 	text-align: center;
 	border: solid 1px rgba(0,0,0,.1);
+	border-bottom: none;
 	background-clip: border-box;
 	width: auto;
 	display: block;
 	margin-bottom: 1rem;
 }
 
-.profile_pic img {
+.catalog-request .profile_pic img {
 	width: 64px;
 	height: auto;
 }
 
+.catalog-request h3 {
+	background-color: #004c97;
+	padding: 1rem;
+	padding-top: 0;
+	text-align: center;
+	border: solid 1px rgba(0,0,0,.1);
+	border-top: none;
+	background-clip: border-box;
+	width: auto;
+	display: block;
+	color: #FFF;
+	margin-bottom: 1rem;
+}
