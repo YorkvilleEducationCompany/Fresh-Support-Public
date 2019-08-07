@@ -455,6 +455,14 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	text-align: center;
 }
 
+.alert {
+	background-color: #e2f2fe;
+	border-radius: 0;
+	color: #023962;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+}
+
 
 /**
  * 
