@@ -555,7 +555,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #servicecatalog-index-web #categories li {
-	flex-basis: 33%
+	flex-basis: 33%;
 	list-style-type: none;
 }
 
