@@ -427,6 +427,40 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	justify-content: flex-end;
 }
 
+
+
+/**
+ * 
+ * Custom Fields modifications
+ * 
+ */
+
+
+.custom-fields {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.custom-fields li {
+	display: flex;
+	flex-direction: row;
+}
+
+.custom-fields li label {
+	flex-basis: 100px;
+}
+
+.custom-fields li .nested_field {
+	flex-grow: 1;
+}
+
+
+
+
+
 /**
  * 
  * Page-specific content
