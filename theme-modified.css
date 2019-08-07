@@ -4423,12 +4423,6 @@ table.catalog-fields-table td.short_desc table td{
 #new-layout .control-group.error-group .redactor_box{
     border-color:#b94a48
 }
-#new-layout .c-wrapper{
-    width:1140px;
-    height:auto;
-    margin:0 auto;
-    border-radius:0
-}
 #new-layout .sidebar{
     background-color:#fff;
     padding:15px 0 25px 25px !important

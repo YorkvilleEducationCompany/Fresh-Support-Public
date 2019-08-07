@@ -514,7 +514,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .service-catalog-services-default {
 	background-image: none !important;
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
 }
+
 
 #catalog-container .catalog-sidebar .search-div {
 	max-width: 400px;
