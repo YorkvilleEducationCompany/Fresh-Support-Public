@@ -846,6 +846,6 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	padding-left: 1rem;
 }
 
-.portal_page_search .breadcrumb {
+.portal_page_search .page-layout .breadcrumb {
 	display: none;
 }
