@@ -812,3 +812,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 .portal_page_search .page-layout > .c-wrapper .sidebar {
 	padding-left: 1rem;
 }
+
+.portal_page_search .breadcrumb {
+	display: none;
+}
