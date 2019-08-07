@@ -434,7 +434,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	background-clip: border-box;
-	
+	padding: 0.5rem 1rem;
 }
 
 .readmore-js-toggle {
