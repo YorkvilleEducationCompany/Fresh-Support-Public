@@ -528,6 +528,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	border-color: rgba(0,0,0, 0.2) !important;
 }
 
+#hc-search-form input {
+	border-right: none !important;
+}
+
 
 
 /**
