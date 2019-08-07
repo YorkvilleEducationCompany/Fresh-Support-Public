@@ -409,6 +409,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 .attach-wrapper .span7 {
 	display: block;
 	width: auto;
+	float: none;
 }
 
 .attach-wrapper .item {
