@@ -391,6 +391,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   }
 }
 
+.dropdown-toggle .caret {
+	display: none !important;
+}
+
 
 /**
  * 
