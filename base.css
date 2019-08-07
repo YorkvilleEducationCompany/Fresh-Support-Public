@@ -561,9 +561,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #servicecatalog-index-web #categories li::before {
 	content: "i";
-	font-family: "glyph24";
+	font-family: "glyph-24";
 	margin-right: 0.8rem;
 	color: #CCC;
+	vertical-align: bottom;
+	top: 0.05em;
+	position: relative;
 }
 
 #catalog_items_container {
