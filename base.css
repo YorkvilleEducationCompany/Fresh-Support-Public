@@ -675,7 +675,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: column;
 }
 
-.main + .sidebar {
+.catalog-request {
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog-request > * + * {
 	padding-left: 1rem;
 }
 
