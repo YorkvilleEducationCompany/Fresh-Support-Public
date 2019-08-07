@@ -22,9 +22,9 @@
 			
 			
 			$('#servicecatalog-index-web #catalog_search').each (function () {
-				var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
-				$(this).trigger(e);
-				/*
+				//var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
+				//$(this).trigger(e);
+				
 				var self = this;
 				search_string = jQuery(this).val();
 				
@@ -49,7 +49,7 @@
 						}
 					});
 				}
-				*/
+				
 			});
 		});
 	});
