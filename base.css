@@ -204,6 +204,17 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
+
+/**
+ * 
+ * Secondary Nav
+ * 
+ */
+#header-nav-secondary .breadcrumb {
+	font-size: 0.8rem;
+}
+
+
 /**
  * 
  * Bootstrap Extended Classes
