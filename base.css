@@ -532,6 +532,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-basis: 100px;
 }
 
+.custom-fields li label + * {
+	flex-basis: 100px;
+	flex-grow: 1;
+	width: auto !important;
+}
+
 .custom-fields li .nested_field,
 .custom-fields li textarea {
 	flex-grow: 1;
