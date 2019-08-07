@@ -472,6 +472,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-basis: 100%;
 	display: flex;
 	flex-direction: row;
+	margin-top: 0.5rem;
 }
 
 
