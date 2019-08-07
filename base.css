@@ -447,6 +447,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 .custom-fields li {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .custom-fields li + li {
@@ -473,6 +474,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex;
 	flex-direction: row;
 	margin-top: 0.5rem;
+	flex-wrap: wrap;
 }
 
 
