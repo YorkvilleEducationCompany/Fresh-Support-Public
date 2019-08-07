@@ -16,7 +16,7 @@
 		
 		$('#servicecatalog-index-web #catalog_search').after('<button id="catalog_search_button">Search</button>');
 		$('#catalog_search_button').click(function(){
-			var e = jQuery.Event( 'keydown', { which: $.ui.keyCode.ENTER } );
+			var e = jQuery.Event( 'keydown', { which: 13 } );
 			$('#servicecatalog-index-web #catalog_search').trigger(e);
 			console.log('trigger');
 		});
