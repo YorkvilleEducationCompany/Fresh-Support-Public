@@ -669,6 +669,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: column;
 }
 
+main + .sidebar {
+	padding-left: 1rem;
+}
+
 .catalog-request .img-div.pull-left {
 	float: none !important;
 }
