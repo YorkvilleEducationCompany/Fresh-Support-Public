@@ -669,6 +669,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: column;
 }
 
+.catalog-request .img-div.pull-left {
+	float: none !important;
+}
+
 .catalog-request .profile_pic {
 	background-color: #004c97;
 	padding: 1rem;
@@ -685,7 +689,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	height: auto;
 }
 
-.catalog-request h3 {
+.catalog-request .content-div h3 {
 	background-color: #004c97;
 	padding: 1rem;
 	padding-top: 0;
