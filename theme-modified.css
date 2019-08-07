@@ -222,22 +222,12 @@ ul{
 ol{
     list-style:decimal
 }
-li{
-    line-height:21.875px
-}
 ul.unstyled,ol.unstyled{
     margin-left:0;
     list-style:none
 }
 dl{
     margin-bottom:21.875px
-}
-dt,dd{
-    line-height:21.875px
-}
-dt{
-    font-weight:bold;
-    line-height:20.875px
 }
 dd{
     margin-left:10.9375px
