@@ -739,13 +739,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #request_item_page .breadcrumb .pull-left a + a {
 	margin-left: 0.5rem;
-	padding-left: 0.5rem;
 }
 
 #request_item_page .breadcrumb .pull-left a + a:before {
 	content: ">";
 	font-family: "glyph-24";
 	color: #CCC;
+	margin-right: 0.5rem;
 }
 
 #request_item_page .breadcrumb .pull-right {
