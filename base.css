@@ -408,6 +408,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .attach-wrapper .item {
 	display: flex;
+	align-items: stretch;
 	width: auto;
 	margin-top: 0.5rem;
 	
