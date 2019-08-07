@@ -526,6 +526,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	background-color: #f8f9fa !important;
 	background-clip: border-box !important;
 	border-color: rgba(0,0,0, 0.2) !important;
+	color: #000 !important;
 }
 
 #hc-search-form input {
