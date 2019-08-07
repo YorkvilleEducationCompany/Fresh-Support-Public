@@ -746,6 +746,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	font-family: "glyph-24";
 	color: #CCC;
 	margin-right: 0.5rem;
+	position: relative;
+	top: 0.1em;
 }
 
 #request_item_page .breadcrumb .pull-right {
