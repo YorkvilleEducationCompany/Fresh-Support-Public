@@ -551,10 +551,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: row;
 	flex-wrap: wrap;
 	order: 0;
+	padding-left: 0;
 }
 
 #servicecatalog-index-web #categories li {
 	flex-basis: 33%
+	list-style-type: none;
 }
 
 #catalog_items_container {
