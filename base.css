@@ -559,6 +559,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	list-style-type: none;
 }
 
+#servicecatalog-index-web #categories li::before {
+	content: "i";
+	font-family: "glyph24";
+	margin-right: 0.8rem;
+	color: #CCC;
+}
+
 #catalog_items_container {
 	width: auto !important;
 	border: none !important;
