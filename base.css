@@ -721,6 +721,21 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: column;
 }
 
+#request_item_page .breadcrumb {
+	background-color: transparent;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#request_item_page .breadcrumb .pull-left {
+	flex-grow: 1;
+}
+
+#request_item_page .breadcrumb .pull-right {
+}
+
 .catalog-request {
 	display: flex;
 	flex-direction: row;
