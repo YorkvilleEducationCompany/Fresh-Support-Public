@@ -209,29 +209,6 @@ h6{
     margin-bottom:0;
     color:#B2B2B2
 }
-ul,ol{
-    padding:0;
-    margin:5px 0 5px 22px
-}
-ul ul,ul ol,ol ol,ol ul{
-    margin-bottom:0
-}
-ul{
-    list-style:disc
-}
-ol{
-    list-style:decimal
-}
-ul.unstyled,ol.unstyled{
-    margin-left:0;
-    list-style:none
-}
-dl{
-    margin-bottom:21.875px
-}
-dd{
-    margin-left:10.9375px
-}
 .dl-horizontal dt{
     float:left;
     width:120px;
