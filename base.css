@@ -406,6 +406,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none !important;
 }
 
+.attach-wrapper .span7 {
+	display: block;
+	width: auto;
+}
+
 .attach-wrapper .item {
 	display: flex;
 	align-items: stretch;
@@ -422,6 +427,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .attach-wrapper .item > * + * {
 	border-left: none;
+}
+
+
+.attach-wrapper .item .ellipsis {
+	flex-grow: 1;
 }
 
 .attach-wrapper .item .close {
