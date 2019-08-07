@@ -449,6 +449,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-direction: row;
 }
 
+.custom-fields li + li {
+	margin-top: 0.5rem;
+}
+
 .custom-fields li label {
 	flex-basis: 100px;
 }
