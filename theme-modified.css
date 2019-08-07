@@ -306,19 +306,6 @@ a:hover,.a-link:hover{
     -webkit-box-sizing:border-box;
     box-sizing:border-box
 }
-.page{
-    *zoom:1;
-    max-width:1140px;
-    max-width:71.25rem;
-    _width:1140px;
-    padding-left:10px;
-    padding-left:.625rem;
-    padding-right:10px;
-    padding-right:.625rem;
-    margin-left:auto;
-    margin-right:auto;
-    padding-bottom:10px
-}
 .page:after{
     content:"";
     display:table;
