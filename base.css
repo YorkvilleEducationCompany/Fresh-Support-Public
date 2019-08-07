@@ -253,7 +253,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 }
 
-.border-rgba {
+.border-rgba, .btn-primary {
 	background-clip: border-box !important;
 	border-color: rgba(0,0,0, 0.2) !important;
 }
