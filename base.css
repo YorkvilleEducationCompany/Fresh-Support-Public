@@ -236,6 +236,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	font-family: "glyph24";
 }
 
+.breadcrumb-item .g24-home::before {
+	margin-right: 0.5em;
+}
+
 :not(#header-hero) + #header-nav-secondary {
 	padding-top: 0 !important;
 }
