@@ -360,6 +360,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   margin-left: auto !important;
 }
 
+.page-layout .c-wrapper,  {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 #request_item_page .sidebar .request-for,
 #request_item_page .sidebar #show_request_for {
 	display: none;
