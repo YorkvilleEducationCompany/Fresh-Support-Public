@@ -360,7 +360,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   margin-left: auto !important;
 }
 
-.page-layout .c-wrapper,  {
+.page-layout .c-wrapper {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
