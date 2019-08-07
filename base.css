@@ -457,8 +457,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-basis: 100px;
 }
 
-.custom-fields li > .nested_field,
-.custom-fields li > textarea {
+.custom-fields li .nested_field,
+.custom-fields li textarea {
 	flex-grow: 1;
 }
 
@@ -466,6 +466,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-basis: 100%;
 }
 
+.custom-fields .level_2,
+.custom-fields .level_3,
+.custom-fields .level_4 {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: row;
+}
 
 
 
