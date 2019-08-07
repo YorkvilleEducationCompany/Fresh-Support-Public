@@ -727,6 +727,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	padding: 0;
 }
 
 #request_item_page .breadcrumb .pull-left {
