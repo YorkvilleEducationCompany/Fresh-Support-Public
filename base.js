@@ -13,7 +13,13 @@
 	// Hide the loading overlay once loaded.
 	$(window).load(function () {
 		$('#body-loading-overlay').addClass('complete');
+		
+		$('#servicecatalog-index-web #catalog_search').after('<button id="catalog_search_button">Search</button>');
+		$('#catalog_search_button').click(function(){
+			$('#servicecatalog-index-web #catalog_search').trigger(jQuery.Event('keypress', { keycode: 13 }));
+		});
 	});
+	
 	
 	
 }(jQuery));
