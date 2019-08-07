@@ -428,6 +428,23 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
+.readmore-js-section {
+	border: solid 1px rgba(0,0,0,.1);
+	background-color: #FAFAFA;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	background-clip: border-box;
+	
+}
+
+.readmore-js-toggle {
+	border-top: solid 1px rgba(0,0,0,.1);
+	display: block;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+
 
 /**
  * 
