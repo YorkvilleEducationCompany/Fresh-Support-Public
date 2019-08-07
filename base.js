@@ -18,7 +18,35 @@
 		$('#catalog_search_button').click(function(){
 			var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
 			$('#servicecatalog-index-web #catalog_search').trigger(e);
-			console.log('trigger');
+			console.log('trigger2');
+			
+			
+			$('#servicecatalog-index-web #catalog_search').each (function () {
+				var self = this;
+				search_string = jQuery(this).val();
+				
+				if (search_string.length > 0) {
+					jQuery.ajax({
+						url: "/support/catalog/items/search_catalog_items",
+						type: "get",
+						dataType: "html",
+						data: {
+						"search_term": search_string
+						},
+						beforeSend: function(e) {
+						loading_box("#catalog_items_container");
+						jQuery("ul#categories>li.active").removeClass("active");
+						},
+						success: function(data) {
+						jQuery('#catalog_items_container').html(data);
+						if (jQuery('#take_to_index_crs').length == 0) {
+							jQuery(self).after("<i class='icon-close2' id='take_to_index_crs'></i>");
+						}
+						changeCatalogImages();
+						}
+					});
+				}
+			});
 		});
 	});
 	
