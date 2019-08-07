@@ -16,12 +16,15 @@
 		
 		$('#servicecatalog-index-web #catalog_search').after('<button id="catalog_search_button">Search</button>');
 		$('#catalog_search_button').click(function(){
-			var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
-			$('#servicecatalog-index-web #catalog_search').trigger(e);
-			console.log('trigger2');
+			//var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
+			//$('#servicecatalog-index-web #catalog_search').trigger(e);
+			//console.log('trigger2');
 			
 			
 			$('#servicecatalog-index-web #catalog_search').each (function () {
+				var e = jQuery.Event( 'keydown', { which: 13, keyCode: 13 } );
+				$(this).trigger(e);
+				/*
 				var self = this;
 				search_string = jQuery(this).val();
 				
@@ -46,6 +49,7 @@
 						}
 					});
 				}
+				*/
 			});
 		});
 	});
