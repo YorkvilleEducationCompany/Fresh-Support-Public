@@ -803,3 +803,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	color: #FFF;
 	margin-bottom: 1rem;
 }
+
+.portal_page_search .page-layout > .c-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.portal_page_search .page-layout > .c-wrapper .sidebar {
+	padding-left: 1rem;
+}
