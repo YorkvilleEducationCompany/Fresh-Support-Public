@@ -214,6 +214,27 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	font-size: 0.8rem;
 }
 
+#header-nav-secondary .breadcrumb ::before {
+	font-size: 0.8rem;
+	width: 1.2rem;
+	height: 0.8rem;
+	text-decoration: none !important;
+}
+
+#header-nav-secondary .breadcrumb ::before {
+	font-size: 0.8rem;
+	width: 1.2rem;
+	height: 0.8rem;
+	text-decoration: none !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	padding-right: .5rem;
+	color: #6c757d;
+	content: ">";
+	font-family: "glyph24";
+}
 
 /**
  * 
