@@ -406,6 +406,33 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none !important;
 }
 
+.attach-wrapper .item {
+	display: flex;
+	width: auto;
+	margin-top: 0.5rem;
+	
+}
+
+.attach-wrapper .item > * {
+	border: solid 1px rgba(0,0,0,.1);
+	background-color: #FAFAFA;
+}
+
+.attach-wrapper .item > * + * {
+	border-left: none;
+}
+
+.attach-wrapper .item .close {
+	color: #FFF !important;
+	background-color: #ac0808;
+	border-left: solid 1px rgba(0,0,0,.1) !important;
+}
+
+.attach-wrapper .item .close:hover {
+	color: #FFF !important;
+	background-color: #d71919;
+}
+
 
 /**
  * 
