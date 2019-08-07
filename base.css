@@ -439,12 +439,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .readmore-js-toggle {
 	border: solid 1px rgba(0,0,0,.1);
-	background-color: #FCFCFC;
+	background-color: #F6F6F6;
 	border-top: none;
 	display: block;
 	width: 100%;
 	padding: 0.5rem 1rem;
 	margin-top: -0.5rem;
+	margin-bottom: 0.5rem;
 	text-align: center;
 }
 
@@ -667,3 +668,15 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex;
 	flex-direction: column;
 }
+
+.profile_pic {
+	background-color: #004c97;
+	padding: 1rem;
+	text-align: center;
+}
+
+.profile_pic img {
+	width: 64px;
+	height: auto;
+}
+
