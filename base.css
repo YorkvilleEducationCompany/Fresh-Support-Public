@@ -519,8 +519,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	flex-grow: 1;
 }
 
-#hc-search-form .hc-search-input input {
+#hc-search-form input,
+#hc-search-form button {
 	width: 100%;
+	border-radius: 0;
+	background-color: #f8f9fa !important;
+	background-clip: border-box !important;
+	border-color: rgba(0,0,0, 0.2) !important;
 }
 
 
