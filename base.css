@@ -712,7 +712,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .catalog-request {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .catalog-request > * + * {
