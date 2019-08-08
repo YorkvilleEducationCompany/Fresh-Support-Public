@@ -539,6 +539,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	box-shadow: none !important;
 }
 
+#hc-search-form button,
+#catalog-container .search-div button {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 #hc-search-form input,
 #catalog-container .search-div input {
 	border-right: none !important;
