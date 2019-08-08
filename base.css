@@ -881,13 +881,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	border-left: none;
 }
 
-.portal_page_search .ticket-filter-container {
+.portal_page_search #ticket-filter-container {
 	order: 0;
 	border: solid 1px rgba(0,0,0,.1);
 	border-right: none;
 }
 
-.portal_page_search .ticket-list {
+.portal_page_search #ticket-list {
 	margin-top: 1rem;
 	flex-basis: 100%;
 	width: 100%;
