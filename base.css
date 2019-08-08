@@ -449,12 +449,18 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	float: none !important;
 }
 
+/*
+ * Eeeeuuuuugh. 
+ */
 .is_stuck {
 	position: static !important;
 	top: auto !important;
 	left: auto !important;
 }
 
+/*
+ * Eeeeuuuuuuuuuuugh. 
+ */
 .is_stuck + * {
 	display: none !important;
 }
