@@ -445,6 +445,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	background-color: #d71919;
 }
 
+.sidebar.pull-left {
+	float: none !important;
+}
+
 
 /**
  * 
@@ -840,6 +844,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 .catalog-request .profile_pic img {
 	width: 64px;
 	height: auto;
+}
+
+.catalog-request .content-div {
+	float: none;
 }
 
 .catalog-request .content-div h3 {
