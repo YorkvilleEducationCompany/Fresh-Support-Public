@@ -455,6 +455,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	left: auto !important;
 }
 
+.is_stuck + * {
+	display: none !important;
+}
+
 /**
  * 
  * Theme Colours
