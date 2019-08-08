@@ -449,6 +449,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	float: none !important;
 }
 
+.is_stuck {
+	position: static !important;
+	top: auto !important;
+	left: auto !important;
+}
 
 /**
  * 
