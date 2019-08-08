@@ -503,10 +503,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
-#hc-search-form {
+#hc-search-form, 
+#catalog-container .search-div {
 	padding: 2rem 10%;
 	display: flex;
 	flex-direction: row;
+	align-items: stretch;
 }
 
 #hc-search-form > * {
@@ -515,13 +517,20 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	align-items: stretch;
 }
 
-#hc-search-form .hc-search-input {
+#hc-search-form .hc-search-input,
+#catalog-container .search-div input {
 	flex-grow: 1;
 }
 
 #hc-search-form input,
 #hc-search-form button {
 	width: 100%;
+}
+
+#hc-search-form input,
+#hc-search-form button,
+#catalog-container .search-div input,
+#catalog-container .search-div button {
 	border-radius: 0;
 	background-color: #f8f9fa !important;
 	background-clip: border-box !important;
@@ -530,8 +539,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	box-shadow: none !important;
 }
 
-#hc-search-form input {
+#hc-search-form input,
+#catalog-container .search-div input {
 	border-right: none !important;
+}
+
+#catalog-container .search-div .icon-search {
+	display: none;
 }
 
 
