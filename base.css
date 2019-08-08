@@ -868,3 +868,23 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 .portal_page_search .page-layout .breadcrumb {
 	display: none;
 }
+
+.portal_page_search .ticket-page {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.portal_page_search .ticket-toolbar {
+	order: 1;
+}
+
+.portal_page_search .ticket-filter-container {
+	order: 0;
+}
+
+.portal_page_search .ticket-list {
+	flex-basis: 100%;
+	width: 100%;
+	order: 2;
+}
