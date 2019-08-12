@@ -445,6 +445,25 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	background-color: #d71919;
 }
 
+.sidebar.pull-left {
+	float: none !important;
+}
+
+/*
+ * Eeeeuuuuugh. 
+ */
+.is_stuck {
+	position: static !important;
+	top: auto !important;
+	left: auto !important;
+}
+
+/*
+ * Eeeeuuuuuuuuuuugh. 
+ */
+.is_stuck + * {
+	display: none !important;
+}
 
 /**
  * 
@@ -503,10 +522,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
-#hc-search-form {
+#hc-search-form, 
+#catalog-container .search-div {
 	padding: 2rem 10%;
 	display: flex;
 	flex-direction: row;
+	align-items: stretch;
 }
 
 #hc-search-form > * {
@@ -515,23 +536,41 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	align-items: stretch;
 }
 
-#hc-search-form .hc-search-input {
+#hc-search-form .hc-search-input,
+#catalog-container .search-div input {
 	flex-grow: 1;
 }
 
 #hc-search-form input,
 #hc-search-form button {
 	width: 100%;
+}
+
+#hc-search-form input,
+#hc-search-form button,
+#catalog-container .search-div input,
+#catalog-container .search-div button {
 	border-radius: 0;
 	background-color: #f8f9fa !important;
 	background-clip: border-box !important;
-	border-color: rgba(0,0,0, 0.2) !important;
+	border: solid 1px rgba(0,0,0, 0.2) !important;
 	color: #000 !important;
 	box-shadow: none !important;
 }
 
-#hc-search-form input {
+#hc-search-form button,
+#catalog-container .search-div button {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#hc-search-form input,
+#catalog-container .search-div input {
 	border-right: none !important;
+}
+
+#catalog-container .search-div .icon-search {
+	display: none;
 }
 
 
@@ -713,9 +752,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 
 #catalog-container .catalog-sidebar .search-div {
-	max-width: 400px;
 	width: 100%;
-	margin: 2rem auto;
+	margin: 0;
 	order: 1;
 }
 
@@ -829,6 +867,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	height: auto;
 }
 
+.catalog-request .content-div {
+	float: none;
+}
+
 .catalog-request .content-div h3 {
 	background-color: #004c97;
 	padding: 1rem;
@@ -854,4 +896,32 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .portal_page_search .page-layout .breadcrumb {
 	display: none;
+}
+
+.portal_page_search .ticket-page {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.portal_page_search .ticket-toolbar {
+	order: 1;
+	border: solid 1px rgba(0,0,0,.1);
+	border-left: none;
+	float: none !important;
+}
+
+.portal_page_search #ticket-filter-container {
+	order: 0;
+	border: solid 1px rgba(0,0,0,.1);
+	border-right: none;
+	flex-grow: 1;
+}
+
+.portal_page_search #ticket-list {
+	margin-top: 1rem;
+	flex-basis: 100%;
+	width: 100%;
+	order: 2;
 }
