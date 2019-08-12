@@ -576,8 +576,9 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .ficon-notifications:before {
   content: "\e91b";
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-family: "glyph24";
+  vertical-align: middle;
 }
 
 
