@@ -429,7 +429,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 .notifications-list {
-	padding: 0 1rem;
+	padding: 0.5rem 1rem;
 	margin: 0px;
 	background-color: #fafafa;
 	font-size: 0.8rem;
