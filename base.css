@@ -407,15 +407,25 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	top: 100%;
 }
 
+
+#user-notifications-popover header {
+	display: flex;
+	flex-direction: row;
+}
+
+#user-notifications-popover header > * {
+	margin: 0.5rem 1rem;
+	font-size: 0.8rem;
+}
+
+
 #user-notifications-popover .notification-title {
 	color: #555;
 	text-align: left;
-	margin: 0.5rem 1rem;
 	padding: 0;
-	width: 100%;
-	font-size: 0.8rem;
 	font-weight: bold;
 	display: block;
+	flex-grow: 1;
 }
 
 #user-notifications-popover .notification-list-filter {
@@ -488,6 +498,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	text-align: left;
 	order: 3;
 }
+
 
 
 #user-notifications-popover .show-user-prefs {
