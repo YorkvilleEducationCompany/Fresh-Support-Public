@@ -400,6 +400,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .notifications-list {
 	margin: 0 1rem;
+	font-size: 0.8rem;
 }
 
 .notifications-list > a {
@@ -413,7 +414,14 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	margin-bottom: 0.5rem;
 }
 
-.notifications-list > .preview_pic {
+.notifications-list .preview_pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+}
+
+.notifications-list .preview_pic span {
 	width: 2rem;
 	height: 2rem;
 	display: inline-block;
