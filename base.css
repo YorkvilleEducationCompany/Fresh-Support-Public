@@ -585,6 +585,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	width: 2rem;
 	height: 2rem;
 	text-align: center;
+	position: relative;
 }
 
 #user_notify_header .ficon-notifications:before {
@@ -593,6 +594,33 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   font-family: "glyph24";
   vertical-align: middle;
   padding: 0rem 0.5rem;
+}
+
+#user_notify_header .ficon-notifications:before {
+  content: "\e91b";
+  font-size: 1.2rem;
+  font-family: "glyph24";
+  vertical-align: middle;
+  padding: 0rem 0.5rem;
+}
+
+#user_notify_header .unseen-count {
+	position: absolute;
+	top: -.75rem;
+	right: -.75rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	min-width: 1.5rem;
+	padding: 0;
+	margin: 0;
+	border-radius: 0.75rem;
+	background-color: #ac0808;
+	color: #fff;
+	font-weight: bold;
+}
+
+#user_notify_header .unseen-count:empty {
+	display: none !important;
 }
 
 
