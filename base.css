@@ -408,6 +408,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	margin: 0.5rem 1rem;
 	padding: 0;
 	width: 100%;
+	font-size: 0.8rem;
+	font-weight: bold;
 }
 
 #user-notifications-popover .notification-list-filter {
