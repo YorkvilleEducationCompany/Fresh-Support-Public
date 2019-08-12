@@ -444,8 +444,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	outline: none !important;
 }
 
-.notifications-list > * {
-	margin-bottom: 0.5rem;
+.notifications-list .no-notification-message {
+	padding: 1rem;
+}
+
+.notifications-list > * + * {
+	margin-top: 0.5rem;
 }
 
 .notifications-list .preview_pic {
