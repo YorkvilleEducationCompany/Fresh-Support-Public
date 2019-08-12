@@ -535,6 +535,12 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
+.ficon-notifications:before {
+  content: "\e91b";
+  font-size: 2rem;
+  font-family: "glyph24";
+}
+
 
 /**
  * 
