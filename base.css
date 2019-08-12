@@ -415,7 +415,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #user-notifications-popover .notification-list-filter a {
-	background-color: #fff;
+	background-color: transparent;
 	border: solid 1px transparent;
 	border-bottom: none;
 	position: relative;
@@ -424,11 +424,14 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #user-notifications-popover .notification-list-filter a.selects {
 	border: solid 1px rgba(0,0,0,.1);
+	background-color: #fafafa;
 	border-bottom: none;
 }
 
 .notifications-list {
-	margin: 0 1rem;
+	padding: 0 1rem;
+	margin: 0px;
+	background-color: #fafafa;
 	font-size: 0.8rem;
 }
 
@@ -436,7 +439,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex;
 	flex-direction: row;
 	border: solid 1px rgba(0,0,0,.1);
-	background-color: #fafafa;
+	background-color: #fff;
 }
 
 .notifications-list > * {
