@@ -588,6 +588,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	position: relative;
 }
 
+#user_notify_header a {
+  text-decoration: none;
+}
+
 #user_notify_header .ficon-notifications:before {
   content: "\e91b";
   font-size: 1.8rem;
@@ -599,6 +603,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   top: -0.02rem;
   padding: 0rem 0.5rem;
   color: #777;
+  text-decoration: none !important;
 }
 
 #user_notify_header .unseen-count {
