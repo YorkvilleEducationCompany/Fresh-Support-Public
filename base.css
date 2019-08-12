@@ -410,6 +410,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	width: 100%;
 	font-size: 0.8rem;
 	font-weight: bold;
+	display: block;
 }
 
 #user-notifications-popover .notification-list-filter {
