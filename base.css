@@ -594,7 +594,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   font-family: "glyph24";
   vertical-align: middle;
   padding: 0rem 0.5rem;
-  color: #333;
+  color: #555;
 }
 
 #user_notify_header .unseen-count {
