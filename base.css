@@ -490,6 +490,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 
+#user-notifications-popover .show-user-prefs {
+	display: none;
+}
+
 
 #user-notifications-popover .notifications-list .no-notification-message {
 	padding: 1rem;
