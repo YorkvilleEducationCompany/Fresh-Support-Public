@@ -274,6 +274,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	align-items: center
 }
 
+.navbar-nav ul,
+.navbar-nav ol {
+	margin: 0;
+}
+
 .btn {
 	border-radius: 0;
 	display: inline-flex;
