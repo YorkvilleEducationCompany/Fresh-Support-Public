@@ -459,16 +459,21 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 #user-notifications-popover .notification-type {
 	flex-grow: 1;
 	text-align: left;
+	color: #333;
+	font-size: 0.8em;
 	order: 0;
 }
 
 #user-notifications-popover .notification-time {
+	color: #333;
+	font-size: 0.8em;
 	order: 1;
 }
 
 #user-notifications-popover .notification-content {
 	flex-basis: 100%;
 	text-align: left;
+	color: #333;
 	order: 2;
 }
 
