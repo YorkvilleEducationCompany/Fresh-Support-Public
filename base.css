@@ -398,6 +398,28 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	transition: opacity 0.2s ease 0s, border 0s linear 0s, height 0s linear 0s, top 0s linear 0s, outline 0s linear 0s, transform 0.2s ease 0s;
 }
 
+.notifications-list {
+	margin: 0 1rem;
+}
+
+.notifications-list > a {
+	display: flex;
+	flex-diraction: row;
+}
+
+.notifications-list > .preview_pic {
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 2rem;
+	background-color: #0566af;
+	color: #FFF;
+}
+
+
+
+
 
 /**
  * 
