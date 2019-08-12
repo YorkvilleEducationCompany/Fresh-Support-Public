@@ -385,7 +385,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	transition: opacity 0.2s ease 0s, border 0s linear 0.2s, height 0s linear 0.2s, top 0s linear 0.2s, outline 0s linear 0.2s, transform 0.2s ease 0s;
 }
 
-.nav-popup.popup-active, #user-notifications-popover.popup-active {
+.nav-popup.popup-active, #user-notifications-popover:not(.hide) {
 	display: flex;
 	max-height: 100vh;
 	opacity: 1;
