@@ -398,6 +398,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	transition: opacity 0.2s ease 0s, border 0s linear 0s, height 0s linear 0s, top 0s linear 0s, outline 0s linear 0s, transform 0.2s ease 0s;
 }
 
+#user-notifications-popover:not(.hide) {
+	top: 100%;
+}
+
 .notifications-list {
 	margin: 0 1rem;
 	font-size: 0.8rem;
@@ -429,6 +433,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	line-height: 2rem;
 	background-color: #0566af;
 	color: #FFF;
+	border-radius: 100%;
 }
 
 
