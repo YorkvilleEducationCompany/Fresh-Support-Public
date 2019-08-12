@@ -468,12 +468,14 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #user-notifications-popover .notification-content {
 	flex-basis: 100%;
+	text-align: left;
 	order: 2;
 }
 
 #user-notifications-popover .notification-subject {
 	flex-basis: 100%;
 	text-transform: none !important;
+	text-align: left;
 	order: 3;
 }
 
