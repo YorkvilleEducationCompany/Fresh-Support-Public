@@ -573,12 +573,21 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none;
 }
 
+#user_notify_header {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+}
 
-.ficon-notifications:before {
+#user_notify_header .ficon-notifications:before {
   content: "\e91b";
   font-size: 1.2rem;
   font-family: "glyph24";
   vertical-align: middle;
+  padding: 0rem 0.5rem;
 }
 
 
