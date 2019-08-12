@@ -387,7 +387,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .nav-popup.popup-active, #user-notifications-popover:not(.hide) {
 	display: flex;
-	max-height: 100vh;
+	max-height: 50vh;
+	overflow-y: auto;
 	opacity: 1;
 	top: 100%;
 	top: calc(100% + 0.8rem + 2px);
