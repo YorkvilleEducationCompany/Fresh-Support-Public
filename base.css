@@ -329,7 +329,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex !important;
 }
 
-#sticky_head .page-tabs .nav-link a {
+#sticky_head .page-tabs .nav-link a{
 	float: none !important; /* Why the floats? Why? */
 	padding: 0.5rem 0rem !important;
 	margin: 0 !important;
@@ -532,6 +532,20 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	border-radius: 100%;
 }
 
+
+#user-notifications-popover .load-more-notifications {
+	display: block;
+	padding: 0.2rem 1rem;
+	text-decoration: none;
+	border-top: solid 1px transparent;
+	background-clip: border-box;
+	border-top: solid 1px rgba(0,0,0,.1);
+}
+#user-notifications-popover .load-more-notifications:hover {
+	background-color: #0069d9;
+	color: #FFF;
+	border-top: solid 1px rgba(0,0,0,.1);
+}
 
 
 
