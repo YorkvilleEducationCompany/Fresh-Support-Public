@@ -404,7 +404,13 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 .notifications-list > a {
 	display: flex;
-	flex-diraction: row;
+	flex-direction: row;
+	border: solid 1px rgba(0,0,0,.1);
+	background-color: #fafafa;
+}
+
+.notifications-list > * {
+	margin-bottom: 0.5rem;
 }
 
 .notifications-list > .preview_pic {
