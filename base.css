@@ -590,7 +590,9 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #user_notify_header .ficon-notifications:before {
   content: "\e91b";
-  font-size: 1.2rem;
+  font-size: 2rem;
+  line-height: 12rem;
+  font-style: normal;
   font-family: "glyph-24";
   vertical-align: middle;
   padding: 0rem 0.5rem;
