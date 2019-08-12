@@ -594,7 +594,9 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
   line-height: 1.2rem;
   font-style: normal;
   font-family: "glyph-24";
-  vertical-align: baseline;
+  vertical-align: middle;
+  position: relative;
+  top: -0.02rem;
   padding: 0rem 0.5rem;
   color: #777;
 }
