@@ -37,6 +37,10 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 	background-image: url(media/tfs-logo.svg);
 }
 
+:not(#header-hero) + #header-nav-secondary {
+	padding-top: 0.5rem !important;
+}
+
 /*
  * 
  * Grid items
