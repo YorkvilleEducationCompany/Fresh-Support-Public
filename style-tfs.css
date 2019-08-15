@@ -16,12 +16,12 @@
 }
 
 a, .a-link, #sticky_head .page-tabs .nav-link a {
-	color: #d92a2b !important;
+	color: #d92a2b;
 	text-decoration: none;
 }
 
 a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
-	color: #d92a2b !important;
+	color: #d92a2b;
 	text-decoration: underline;
 }
 
@@ -44,10 +44,6 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 #header-nav-secondary > div > ul {
 	position: relative;
 	top: 0.2rem;
-}
-
-#header-nav-social a {
-	color: #FFF;
 }
 
 /*
