@@ -54,3 +54,12 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 #catalog-container .catalog-mainpage .items-container .catalog-items:hover {
 	background-color: #d92a2b !important;
 }
+
+/*
+ * Page-specific
+ */
+
+.catalog-request .profile_pic,
+.catalog-request .content-div h3 {
+	background-color: #d92a2b;
+}
