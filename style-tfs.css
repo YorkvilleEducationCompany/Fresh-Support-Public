@@ -1,9 +1,27 @@
 /*
- * Social Nav
+ * General Changes
  */
 
 .bg-primary {
 	background-color: #100e0f !important;
+}
+
+.btn-primary {
+	background-color: #d92a2b;
+	color: #FFF;
+}
+
+.btn-primary:hover {
+	background-color: #ee3b2f !important;
+}
+
+a, .a-link {
+	color: #d92a2b;
+	text-decoration: none;
+}
+
+a:hover, .a-link:hover {
+	text-decoration: underline;
 }
 
 /*
