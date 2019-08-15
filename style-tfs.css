@@ -26,7 +26,7 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 }
 
 /*
- * Social Nav
+ * Nav
  */
 
 #header-nav-primary {
@@ -44,6 +44,10 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 #header-nav-secondary > div > ul {
 	position: relative;
 	top: 0.2rem;
+}
+
+#page-tabs a {
+	color: #d92a2b !important;
 }
 
 /*
