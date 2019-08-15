@@ -825,6 +825,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none !important;
 }
 
+#request_catalog_item .catalog-breadcrumb .pull-left {
+	display: none;
+}
+
 
 /**
  * 
