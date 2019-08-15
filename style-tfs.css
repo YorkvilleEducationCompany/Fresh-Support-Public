@@ -46,6 +46,10 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 	top: 0.2rem;
 }
 
+#header-nav-social a {
+	color: #FFF;
+}
+
 /*
  * 
  * Grid items
