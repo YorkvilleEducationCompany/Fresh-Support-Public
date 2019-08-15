@@ -11,8 +11,9 @@
 	color: #FFF;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, #load-more-notifications:hover {
 	background-color: #ee3b2f !important;
+	color: #FFF;
 }
 
 a, .a-link, #sticky_head .page-tabs .nav-link a {
