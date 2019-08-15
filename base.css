@@ -296,6 +296,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	color: #FFF;
 }
 
+.btn-red:hover {
+	color: #FFF;
+}
+
 /**
  * 
  * Nav Overrides
