@@ -25,10 +25,10 @@
 	$(window).load(function () {
 		
 		// AAaaaAAAaaaaaAAAAaAAAaAAAAaaaa
-		depreciatedReplace('body *', 'ticket', 'inquiry');
-		depreciatedReplace('body *', 'Ticket', 'Inquiry');
 		depreciatedReplace('body *', 'tickets', 'inquiries');
 		depreciatedReplace('body *', 'Tickets', 'Inquiries');
+		depreciatedReplace('body *', 'ticket', 'inquiry');
+		depreciatedReplace('body *', 'Ticket', 'Inquiry');
 		
 		$('#body-loading-overlay').addClass('complete');
 		
