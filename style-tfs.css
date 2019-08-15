@@ -47,5 +47,5 @@ a:hover, .a-link:hover {
 }
 
 #catalog-container .catalog-mainpage .items-container .catalog-items:hover {
-	background-color: #d92a2b;
+	background-color: #d92a2b !important;
 }
