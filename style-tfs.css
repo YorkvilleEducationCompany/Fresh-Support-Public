@@ -15,12 +15,12 @@
 	background-color: #ee3b2f !important;
 }
 
-a, .a-link {
+a, .a-link, #sticky_head .page-tabs .nav-link a {
 	color: #d92a2b;
 	text-decoration: none;
 }
 
-a:hover, .a-link:hover {
+a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover {
 	text-decoration: underline;
 }
 
