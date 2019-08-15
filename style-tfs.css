@@ -16,12 +16,12 @@
 }
 
 a, .a-link, #sticky_head .page-tabs .nav-link a {
-	color: #d92a2b;
+	color: #d92a2b !important;
 	text-decoration: none;
 }
 
 a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
-	color: #d92a2b;
+	color: #d92a2b !important;
 	text-decoration: underline;
 }
 
