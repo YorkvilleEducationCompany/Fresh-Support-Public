@@ -549,7 +549,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #user-notifications-popover .settings-help {
-	display: none;
+	display: none !important;
 }
 
 
