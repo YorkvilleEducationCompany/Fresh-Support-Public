@@ -26,6 +26,10 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 	text-decoration: underline;
 }
 
+#sticky_head .page-tabs .nav-link a {
+	color: #d92a2b !important;
+}
+
 /*
  * Nav
  */
