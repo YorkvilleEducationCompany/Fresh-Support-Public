@@ -41,6 +41,11 @@ a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
 	padding-top: 0.5rem !important;
 }
 
+#header-nav-secondary > div > ul {
+	position: relative;
+	top: 0.2rem;
+}
+
 /*
  * 
  * Grid items
