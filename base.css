@@ -274,6 +274,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	align-items: center
 }
 
+.navbar-nav ul,
+.navbar-nav ol {
+	margin: 0;
+}
+
 .btn {
 	border-radius: 0;
 	display: inline-flex;
@@ -324,7 +329,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: flex !important;
 }
 
-#sticky_head .page-tabs .nav-link a {
+#sticky_head .page-tabs .nav-link a{
 	float: none !important; /* Why the floats? Why? */
 	padding: 0.5rem 0rem !important;
 	margin: 0 !important;
@@ -352,6 +357,201 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 #sticky_head .page-tabs .nav-link a.active:hover {
 	text-decoration: none;
 }
+
+
+
+.nav-popup, #user-notifications-popover {
+	display: flex;
+	max-height: 0px;
+	overflow: hidden;
+	opacity: 0;
+	transform: translateY(-10px);
+	
+	flex-direction: column;
+	min-width: 400px;
+	max-width: calc(100vw - 2rem);
+	max-height: calc(100vh - 100px);
+	position: absolute;
+	top: -100vh;
+	right: -1rem;
+	right: calc(-1rem - 1px);
+	background-color: #FFF;
+	background-clip: padding-box;
+	box-shadow: 0px 5px 20px rgba(0,0,0,.1);
+	border: solid 0 transparent;
+	outline: solid 0 transparent;
+	border-radius: 0;
+	z-index: 100;
+	transition: opacity 0.2s ease 0s, border 0s linear 0.2s, height 0s linear 0.2s, top 0s linear 0.2s, outline 0s linear 0.2s, transform 0.2s ease 0s;
+}
+
+.nav-popup.popup-active, #user-notifications-popover {
+	max-height: 50vh;
+	overflow-y: auto;
+}
+
+.nav-popup.popup-active, #user-notifications-popover:not(.hide) {
+	display: flex;
+	max-height: 50vh;
+	overflow-y: auto;
+	opacity: 1;
+	top: 100%;
+	top: calc(100% + 0.8rem + 2px);
+	transform: none;
+	border: solid 1px rgba(0,0,0,.3);
+	outline: solid 0.5rem rgba(0,0,0,.1);
+	transition: opacity 0.2s ease 0s, border 0s linear 0s, height 0s linear 0s, top 0s linear 0s, outline 0s linear 0s, transform 0.2s ease 0s;
+}
+
+#user-notifications-popover:not(.hide) {
+	top: 100%;
+}
+
+
+#user-notifications-popover header {
+	display: flex;
+	flex-direction: row;
+}
+
+#user-notifications-popover header > * {
+	margin: 0.5rem 1rem;
+	font-size: 0.9rem;
+}
+
+
+#user-notifications-popover .notification-title {
+	color: #555;
+	text-align: left;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+	flex-grow: 1;
+}
+
+#user-notifications-popover .notification-list-filter {
+	display: block;
+	border-bottom: solid 1px rgba(0,0,0,.1);
+	margin-top: 0.5rem;
+}
+
+#user-notifications-popover .notification-list-filter a {
+	background-color: transparent;
+	border: solid 1px transparent;
+	border-bottom: none;
+	position: relative;
+	top: 1px;
+}
+
+#user-notifications-popover .notification-list-filter a.selected {
+	border: solid 1px rgba(0,0,0,.1);
+	border-bottom: none;
+	background-color: #fafafa;
+}
+
+#user-notifications-popover .notifications-list {
+	padding: 0.5rem 1rem;
+	margin: 0px;
+	background-color: #fafafa;
+	font-size: 0.8rem;
+}
+
+#user-notifications-popover .notifications-list > a {
+	display: flex;
+	flex-direction: row;
+	border: solid 1px rgba(0,0,0,.1);
+	background-color: #fff;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+#user-notifications-popover .notification-inner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+#user-notifications-popover .notification-type {
+	flex-grow: 1;
+	text-align: left;
+	color: #333;
+	font-size: 0.8em;
+	order: 0;
+}
+
+#user-notifications-popover .notification-time {
+	color: #333;
+	font-size: 0.8em;
+	order: 1;
+}
+
+#user-notifications-popover .notification-content {
+	flex-basis: 100%;
+	text-align: left;
+	color: #333;
+	order: 2;
+}
+
+#user-notifications-popover .notification-subject {
+	flex-basis: 100%;
+	text-transform: none !important;
+	text-align: left;
+	order: 3;
+}
+
+
+
+#user-notifications-popover .show-user-prefs {
+	display: none;
+}
+
+
+#user-notifications-popover .notifications-list .no-notification-message {
+	padding: 1rem;
+}
+
+#user-notifications-popover .notifications-list > * + * {
+	margin-top: 0.5rem;
+}
+
+#user-notifications-popover .notifications-list .preview_pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+}
+
+#user-notifications-popover .notifications-list .preview_pic span {
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 2rem;
+	background-color: #0566af;
+	color: #FFF;
+	border-radius: 100%;
+}
+
+
+#user-notifications-popover #load-more-notifications {
+	display: block;
+	padding: 0.2rem 1rem;
+	text-decoration: none;
+	border-top: solid 1px transparent;
+	background-clip: border-box;
+	border-top: solid 1px rgba(0,0,0,.1);
+	cursor: pointer;
+}
+#user-notifications-popover #load-more-notifications:hover {
+	background-color: #0069d9;
+	color: #FFF;
+	border-top: solid 1px rgba(0,0,0,.1);
+}
+
+#user-notifications-popover .settings-help {
+	display: none;
+}
+
 
 /**
  * 
@@ -573,6 +773,53 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none;
 }
 
+#user_notify_header {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	position: relative;
+}
+
+#user_notify_header a {
+  text-decoration: none;
+}
+
+#user_notify_header .ficon-notifications:before {
+  content: "\e91b";
+  font-size: 1.8rem;
+  line-height: 1.2rem;
+  font-style: normal;
+  font-family: "glyph-24";
+  vertical-align: middle;
+  position: relative;
+  top: -0.02rem;
+  padding: 0rem 0.5rem;
+  color: #777;
+  text-decoration: none !important;
+}
+
+#user_notify_header .unseen-count {
+	position: absolute;
+	top: -.6rem;
+	right: -.6rem;
+	height: 1.2rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	min-width: 1.2rem;
+	padding: 0;
+	margin: 0;
+	border-radius: 0.6rem;
+	background-color: #ac0808;
+	color: #fff;
+	font-weight: bold;
+}
+
+#user_notify_header .unseen-count:empty {
+	display: none !important;
+}
 
 
 /**
