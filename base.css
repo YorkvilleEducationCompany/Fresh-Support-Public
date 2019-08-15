@@ -843,6 +843,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	float: none !important;
 }
 
+#request_catalog_item .catalog-request .main {
+	flex-grow: 1;
+}
+
 
 /**
  * 
