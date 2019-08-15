@@ -829,6 +829,16 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: none;
 }
 
+#request_catalog_item .place-request {
+	display: block;
+	position: static;
+	float: none !important;
+}
+
+#request_catalog_item .place-request input {
+	width: 100%;
+}
+
 
 /**
  * 
