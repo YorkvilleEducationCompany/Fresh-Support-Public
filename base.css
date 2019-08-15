@@ -833,6 +833,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	display: block;
 	position: static;
 	float: none !important;
+	margin-bottom: 1rem;
 }
 
 #request_catalog_item .place-request input {
