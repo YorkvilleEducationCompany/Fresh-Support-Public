@@ -1,1 +1,33 @@
- 
+/*
+ * Social Nav
+ */
+
+.bg-primary {
+	background-color: #100e0f !important;
+}
+
+/*
+ * Social Nav
+ */
+
+#header-nav-primary {
+	background-color: #1f1d1d;
+}
+
+#header-logo {
+	background-image: url(media/tfs-logo.svg);
+}
+
+/*
+ * 
+ * Grid items
+ * 
+ */
+
+#catalog-container .catalog-items {
+	background-color: #a11313 !important;
+}
+
+#catalog-container .catalog-mainpage .items-container .catalog-items:hover {
+	background-color: #d92a2b;
+}
