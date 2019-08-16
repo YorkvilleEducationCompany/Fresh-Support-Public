@@ -1223,7 +1223,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #ticket-show #ticket-toolbar {
-	flex-basis: 50%;
-	flex-grow: 1;
 	font-size: 0.8rem;
+	margin: 0;
+}
+
+#ticket-show #ticket-toolbar a {
+	font-size: 0.8rem !important;
 }
