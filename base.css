@@ -296,6 +296,10 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	color: #FFF;
 }
 
+.btn-red:hover {
+	color: #FFF;
+}
+
 /**
  * 
  * Nav Overrides
@@ -549,7 +553,7 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #user-notifications-popover .settings-help {
-	display: none;
+	display: none !important;
 }
 
 
@@ -819,6 +823,30 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #user_notify_header .unseen-count:empty {
 	display: none !important;
+}
+
+#request_catalog_item .catalog-breadcrumb .pull-left {
+	display: none;
+}
+
+#request_catalog_item .place-request {
+	display: block;
+	position: static;
+	float: none !important;
+	margin-bottom: 1rem;
+}
+
+#request_catalog_item .place-request input {
+	width: 100%;
+	text-align: center;
+}
+
+#request_catalog_item .catalog-request > .pull-left {
+	float: none !important;
+}
+
+#request_catalog_item .catalog-request .main {
+	flex-grow: 1;
 }
 
 

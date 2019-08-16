@@ -5,6 +5,17 @@
  */
 (function($)
 {
+	// 
+	function depreciatedReplace (selector, find, replace)
+	{
+		$(selector).each(function () {
+			var self = $(this);
+			if (self.children().length == 0) {
+				self.text(self.text().replace(find, replace));
+			}
+		});
+	}
+
 	// Murder the native Freshservice stylesheet. It causes problems.
 	// Because the native stylesheet is listed before his script,
 	// we don't need to wait for the page to load.
@@ -12,6 +23,15 @@
 	
 	// Hide the loading overlay once loaded.
 	$(window).load(function () {
+		
+		// AAaaaAAAaaaaaAAAAaAAAaAAAAaaaa
+		depreciatedReplace('body *', 'tickets', 'inquiries');
+		depreciatedReplace('body *', 'Tickets', 'Inquiries');
+		depreciatedReplace('body *', 'ticket', 'inquiry');
+		depreciatedReplace('body *', 'Ticket', 'Inquiry');
+		
+		$('#request_catalog_item .catalog-breadcrumb .pull-right').addClass('place-request').prependTo("#request_catalog_item .catalog-request .sidebar.pull-left");
+		
 		$('#body-loading-overlay').addClass('complete');
 		
 		$('#servicecatalog-index-web #catalog_search').after('<button id="catalog_search_button">Search</button>');

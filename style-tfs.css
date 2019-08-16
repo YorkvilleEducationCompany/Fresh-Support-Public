@@ -1,1 +1,79 @@
- 
+/*
+ * General Changes
+ */
+
+.bg-primary {
+	background-color: #100e0f !important;
+}
+
+.btn-primary {
+	background-color: #ac0808;
+	color: #FFF;
+}
+
+.btn-primary:hover, #load-more-notifications:hover {
+	background-color: #ee3b2f !important;
+	color: #FFF;
+}
+
+a, .a-link, #sticky_head .page-tabs .nav-link a {
+	color: #d92a2b;
+	text-decoration: none;
+}
+
+a:hover, .a-link:hover, #sticky_head .page-tabs .nav-link a:hover, a:hover {
+	color: #d92a2b;
+	text-decoration: underline;
+}
+
+#sticky_head .page-tabs .nav-link a {
+	color: #d92a2b !important;
+}
+
+/*
+ * Nav
+ */
+
+#header-nav-primary {
+	background-color: #1f1d1d;
+}
+
+#header-logo {
+	background-image: url(media/tfs-logo.svg);
+}
+
+:not(#header-hero) + #header-nav-secondary {
+	padding-top: 0.5rem !important;
+}
+
+#header-nav-secondary > div > ul {
+	position: relative;
+	top: 0.2rem;
+}
+
+#page-tabs a {
+	color: #d92a2b !important;
+}
+
+/*
+ * 
+ * Grid items
+ * 
+ */
+
+#catalog-container .catalog-items {
+	background-color: #a11313 !important;
+}
+
+#catalog-container .catalog-mainpage .items-container .catalog-items:hover {
+	background-color: #d92a2b !important;
+}
+
+/*
+ * Page-specific
+ */
+
+.catalog-request .profile_pic,
+.catalog-request .content-div h3 {
+	background-color: #100e0f;
+}
