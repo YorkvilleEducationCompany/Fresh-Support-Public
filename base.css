@@ -1227,6 +1227,11 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	margin: 0;
 }
 
-#ticket-show #ticket-toolbar a {
+#ticket-show #ticket-toolbar .btn {
 	font-size: 0.8rem !important;
+	padding: 0 !important;
+}
+
+#ticket-show #ticket-toolbar .btn + .btn {
+	margin-left: 0.5rem;
 }
