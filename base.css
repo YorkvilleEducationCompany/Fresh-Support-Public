@@ -1166,3 +1166,36 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 	width: 100%;
 	order: 2;
 }
+
+#ticket-show .ticket-main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#ticket-show .ticket-main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+#ticket-show #ticket-description,
+#ticket-show .ticket-main > .alert,
+#ticket-show  #ticket-comments{
+	flex-basis: 100%;
+}
+
+#ticket-show .ticket-main > h2 {
+	flex-basis: 50%;
+	flex-grow: 1;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#ticket-show #ticket-toolbar {
+	flex-basis: 50%;
+	flex-grow: 1;
+	font-size: 0.8rem;
+}
