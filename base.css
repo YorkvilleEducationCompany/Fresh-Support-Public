@@ -76,6 +76,10 @@ body {
 	background-color: transparent !important;
 }
 
+.cookie-link {
+	font-size: 0.8rem;
+}
+
 
 /**
  * 
@@ -1234,4 +1238,22 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 
 #ticket-show #ticket-toolbar .btn + .btn {
 	margin-left: 0.5rem;
+}
+
+#ticket-show .user-pic-thumb {
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 3rem;
+	color: #FFF;
+	background-color: #777;
+	border: solid 1px rgba(0,0,0,.1);
+	background-clip: border-box;
+	background-origin: border-box;
+}
+
+#ticket-show .user-pic-thumb:before,
+#ticket-show .user-pic-thumb:after {
+	display: none !important;
 }
