@@ -841,8 +841,8 @@ header #header-nav-primary .navbar-nav-nocollapse > * + li {
 }
 
 #request_catalog_item .place-request input {
-	width: 100%;
-	text-align: center;
+	/*width: 100%;*/
+	text-align: center !important;
 }
 
 #request_catalog_item .catalog-request > .pull-left {
