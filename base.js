@@ -32,7 +32,7 @@
 		
 		$('#request_catalog_item .catalog-breadcrumb .pull-right').addClass('place-request').prependTo("#request_catalog_item .catalog-request .sidebar.pull-left");
 		
-		$('#body-loading-overlay').addClass('complete');
+		$('#body-loading-overlay').addClass('complete').delay(750).remove();
 		
 		$('#servicecatalog-index-web #catalog_search').after('<button id="catalog_search_button">Search</button>');
 		$('#catalog_search_button').click(function(){
