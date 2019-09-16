@@ -30,7 +30,7 @@
 		depreciatedReplace('body *', 'ticket', 'inquiry');
 		depreciatedReplace('body *', 'Ticket', 'Inquiry');
 		
-		$('#request_catalog_item .catalog-breadcrumb .pull-right').addClass('place-request').prependTo("#request_catalog_item .catalog-request .sidebar.pull-left");
+		$('#request_catalog_item .catalog-breadcrumb .pull-right').addClass('place-request').prependTo("#request_catalog_item .catalog-request .sidebar");
 		
 		$('#body-loading-overlay').addClass('complete').delay(750).remove();
 		
